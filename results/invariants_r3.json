@@ -1,0 +1,518 @@
+{
+ "invariants": [
+  "I1_unique",
+  "I2_no_cross_class",
+  "I3_neg_not_target",
+  "I4_pos_is_target",
+  "I5_neg_source_ok",
+  "I6_folds_disjoint",
+  "I7_balanced"
+ ],
+ "raw_author_files": {
+  "anger": {
+   "n": 304,
+   "violations": {
+    "I1_unique": 7,
+    "I2_no_cross_class": 5,
+    "I3_neg_not_target": 5,
+    "I4_pos_is_target": 0,
+    "I5_neg_source_ok": 5,
+    "I7_balanced": 0
+   },
+   "negative_sources": {
+    "twitter:Narcissistic Disorder": 30,
+    "twitter:Panic Disorder": 30,
+    "twitter:Anxiety Disorder": 30,
+    "reddit": 30,
+    "twitter:Depression": 25,
+    "twitter:Anger/ Intermittent Explosive Disorder/Depression": 5
+   },
+   "target_texts_kept_as_negatives_by_keep_first_dedup": 3
+  },
+  "anxiety": {
+   "n": 303,
+   "violations": {
+    "I1_unique": 40,
+    "I2_no_cross_class": 30,
+    "I3_neg_not_target": 30,
+    "I4_pos_is_target": 0,
+    "I5_neg_source_ok": 30,
+    "I7_balanced": 0
+   },
+   "negative_sources": {
+    "twitter:Anxiety Disorder": 30,
+    "twitter:Panic Disorder": 30,
+    "reddit": 30,
+    "twitter:Depression": 25,
+    "twitter:Anger/ Intermittent Explosive Disorder": 23,
+    "twitter:Anger/ Intermittent Explosive Disorder/Depression": 12
+   },
+   "target_texts_kept_as_negatives_by_keep_first_dedup": 13
+  },
+  "depression": {
+   "n": 413,
+   "violations": {
+    "I1_unique": 9,
+    "I2_no_cross_class": 8,
+    "I3_neg_not_target": 8,
+    "I4_pos_is_target": 0,
+    "I5_neg_source_ok": 8,
+    "I7_balanced": 0
+   },
+   "negative_sources": {
+    "reddit": 41,
+    "twitter:Panic Disorder": 41,
+    "twitter:Narcissistic Disorder": 41,
+    "twitter:Anxiety Disorder": 41,
+    "twitter:Anger/ Intermittent Explosive Disorder": 33,
+    "twitter:Anger/ Intermittent Explosive Disorder/Depression": 8
+   },
+   "target_texts_kept_as_negatives_by_keep_first_dedup": 4
+  },
+  "npd": {
+   "n": 313,
+   "violations": {
+    "I1_unique": 4,
+    "I2_no_cross_class": 0,
+    "I3_neg_not_target": 0,
+    "I4_pos_is_target": 0,
+    "I5_neg_source_ok": 0,
+    "I7_balanced": 0
+   },
+   "negative_sources": {
+    "reddit": 31,
+    "twitter:Anxiety Disorder": 31,
+    "twitter:Panic Disorder": 31,
+    "twitter:Depression": 26,
+    "twitter:Anger/ Intermittent Explosive Disorder": 24,
+    "twitter:Anger/ Intermittent Explosive Disorder/Depression": 12
+   },
+   "target_texts_kept_as_negatives_by_keep_first_dedup": 0
+  },
+  "panic": {
+   "n": 222,
+   "violations": {
+    "I1_unique": 1,
+    "I2_no_cross_class": 0,
+    "I3_neg_not_target": 0,
+    "I4_pos_is_target": 0,
+    "I5_neg_source_ok": 0,
+    "I7_balanced": 0
+   },
+   "negative_sources": {
+    "twitter:Anxiety Disorder": 22,
+    "reddit": 22,
+    "twitter:Narcissistic Disorder": 22,
+    "twitter:Anger/ Intermittent Explosive Disorder": 18,
+    "twitter:Depression": 17,
+    "twitter:Anger/ Intermittent Explosive Disorder/Depression": 9
+   },
+   "target_texts_kept_as_negatives_by_keep_first_dedup": 0
+  }
+ },
+ "final_subsets": {
+  "anger/mixed": {
+   "info": {
+    "raw": 304,
+    "exact_removed": 7,
+    "conflict_removed": 5,
+    "n": 292,
+    "n_pos": 147,
+    "n_neg": 145,
+    "neg_reddit": 30
+   },
+   "violations": {
+    "I1_unique": 0,
+    "I2_no_cross_class": 0,
+    "I3_neg_not_target": 0,
+    "I4_pos_is_target": 0,
+    "I5_neg_source_ok": 0,
+    "I6_folds_disjoint": 0,
+    "I7_balanced": 0
+   },
+   "negative_sources": {
+    "twitter:Narcissistic Disorder": 30,
+    "twitter:Panic Disorder": 30,
+    "twitter:Anxiety Disorder": 30,
+    "reddit": 30,
+    "twitter:Depression": 25
+   },
+   "missing_negative_shares": []
+  },
+  "anger/twitter": {
+   "info": {
+    "raw": 304,
+    "exact_removed": 0,
+    "conflict_removed": 0,
+    "n": 304,
+    "n_pos": 152,
+    "n_neg": 152,
+    "neg_reddit": 0
+   },
+   "violations": {
+    "I1_unique": 0,
+    "I2_no_cross_class": 0,
+    "I3_neg_not_target": 0,
+    "I4_pos_is_target": 0,
+    "I5_neg_source_ok": 0,
+    "I6_folds_disjoint": 0,
+    "I7_balanced": 0
+   },
+   "negative_sources": {
+    "twitter:Depression": 38,
+    "twitter:Panic Disorder": 38,
+    "twitter:Anxiety Disorder": 38,
+    "twitter:Narcissistic Disorder": 38
+   },
+   "missing_negative_shares": []
+  },
+  "anger/reddit": {
+   "info": {
+    "raw": 304,
+    "exact_removed": 0,
+    "conflict_removed": 0,
+    "n": 304,
+    "n_pos": 152,
+    "n_neg": 152,
+    "neg_reddit": 152
+   },
+   "violations": {
+    "I1_unique": 0,
+    "I2_no_cross_class": 0,
+    "I3_neg_not_target": 0,
+    "I4_pos_is_target": 0,
+    "I5_neg_source_ok": 0,
+    "I6_folds_disjoint": 0,
+    "I7_balanced": 0
+   },
+   "negative_sources": {
+    "reddit": 152
+   },
+   "missing_negative_shares": []
+  },
+  "anxiety/mixed": {
+   "info": {
+    "raw": 303,
+    "exact_removed": 40,
+    "conflict_removed": 30,
+    "n": 233,
+    "n_pos": 115,
+    "n_neg": 118,
+    "neg_reddit": 30
+   },
+   "violations": {
+    "I1_unique": 0,
+    "I2_no_cross_class": 0,
+    "I3_neg_not_target": 0,
+    "I4_pos_is_target": 0,
+    "I5_neg_source_ok": 0,
+    "I6_folds_disjoint": 0,
+    "I7_balanced": 0
+   },
+   "negative_sources": {
+    "twitter:Panic Disorder": 30,
+    "reddit": 30,
+    "twitter:Depression": 25,
+    "twitter:Anger/ Intermittent Explosive Disorder": 23,
+    "twitter:Anger/ Intermittent Explosive Disorder/Depression": 10
+   },
+   "missing_negative_shares": [
+    "twitter:Narcissistic Disorder"
+   ]
+  },
+  "anxiety/twitter": {
+   "info": {
+    "raw": 291,
+    "exact_removed": 0,
+    "conflict_removed": 0,
+    "n": 291,
+    "n_pos": 145,
+    "n_neg": 146,
+    "neg_reddit": 0
+   },
+   "violations": {
+    "I1_unique": 0,
+    "I2_no_cross_class": 0,
+    "I3_neg_not_target": 0,
+    "I4_pos_is_target": 0,
+    "I5_neg_source_ok": 0,
+    "I6_folds_disjoint": 0,
+    "I7_balanced": 0
+   },
+   "negative_sources": {
+    "twitter:Narcissistic Disorder": 37,
+    "twitter:Panic Disorder": 37,
+    "twitter:Depression": 31,
+    "twitter:Anger/ Intermittent Explosive Disorder": 30,
+    "twitter:Anger/ Intermittent Explosive Disorder/Depression": 11
+   },
+   "missing_negative_shares": []
+  },
+  "anxiety/reddit": {
+   "info": {
+    "raw": 290,
+    "exact_removed": 0,
+    "conflict_removed": 0,
+    "n": 290,
+    "n_pos": 145,
+    "n_neg": 145,
+    "neg_reddit": 145
+   },
+   "violations": {
+    "I1_unique": 0,
+    "I2_no_cross_class": 0,
+    "I3_neg_not_target": 0,
+    "I4_pos_is_target": 0,
+    "I5_neg_source_ok": 0,
+    "I6_folds_disjoint": 0,
+    "I7_balanced": 0
+   },
+   "negative_sources": {
+    "reddit": 145
+   },
+   "missing_negative_shares": []
+  },
+  "depression/mixed": {
+   "info": {
+    "raw": 413,
+    "exact_removed": 9,
+    "conflict_removed": 8,
+    "n": 396,
+    "n_pos": 199,
+    "n_neg": 197,
+    "neg_reddit": 41
+   },
+   "violations": {
+    "I1_unique": 0,
+    "I2_no_cross_class": 0,
+    "I3_neg_not_target": 0,
+    "I4_pos_is_target": 0,
+    "I5_neg_source_ok": 0,
+    "I6_folds_disjoint": 0,
+    "I7_balanced": 0
+   },
+   "negative_sources": {
+    "reddit": 41,
+    "twitter:Panic Disorder": 41,
+    "twitter:Narcissistic Disorder": 41,
+    "twitter:Anxiety Disorder": 41,
+    "twitter:Anger/ Intermittent Explosive Disorder": 33
+   },
+   "missing_negative_shares": []
+  },
+  "depression/twitter": {
+   "info": {
+    "raw": 415,
+    "exact_removed": 0,
+    "conflict_removed": 0,
+    "n": 415,
+    "n_pos": 207,
+    "n_neg": 208,
+    "neg_reddit": 0
+   },
+   "violations": {
+    "I1_unique": 0,
+    "I2_no_cross_class": 0,
+    "I3_neg_not_target": 0,
+    "I4_pos_is_target": 0,
+    "I5_neg_source_ok": 0,
+    "I6_folds_disjoint": 0,
+    "I7_balanced": 0
+   },
+   "negative_sources": {
+    "twitter:Anger/ Intermittent Explosive Disorder": 52,
+    "twitter:Panic Disorder": 52,
+    "twitter:Narcissistic Disorder": 52,
+    "twitter:Anxiety Disorder": 52
+   },
+   "missing_negative_shares": []
+  },
+  "depression/reddit": {
+   "info": {
+    "raw": 414,
+    "exact_removed": 0,
+    "conflict_removed": 0,
+    "n": 414,
+    "n_pos": 207,
+    "n_neg": 207,
+    "neg_reddit": 207
+   },
+   "violations": {
+    "I1_unique": 0,
+    "I2_no_cross_class": 0,
+    "I3_neg_not_target": 0,
+    "I4_pos_is_target": 0,
+    "I5_neg_source_ok": 0,
+    "I6_folds_disjoint": 0,
+    "I7_balanced": 0
+   },
+   "negative_sources": {
+    "reddit": 207
+   },
+   "missing_negative_shares": []
+  },
+  "npd/mixed": {
+   "info": {
+    "raw": 313,
+    "exact_removed": 4,
+    "conflict_removed": 0,
+    "n": 309,
+    "n_pos": 156,
+    "n_neg": 153,
+    "neg_reddit": 31
+   },
+   "violations": {
+    "I1_unique": 0,
+    "I2_no_cross_class": 0,
+    "I3_neg_not_target": 0,
+    "I4_pos_is_target": 0,
+    "I5_neg_source_ok": 0,
+    "I6_folds_disjoint": 0,
+    "I7_balanced": 0
+   },
+   "negative_sources": {
+    "reddit": 31,
+    "twitter:Anxiety Disorder": 31,
+    "twitter:Panic Disorder": 31,
+    "twitter:Depression": 26,
+    "twitter:Anger/ Intermittent Explosive Disorder": 24,
+    "twitter:Anger/ Intermittent Explosive Disorder/Depression": 10
+   },
+   "missing_negative_shares": []
+  },
+  "npd/twitter": {
+   "info": {
+    "raw": 312,
+    "exact_removed": 0,
+    "conflict_removed": 0,
+    "n": 312,
+    "n_pos": 156,
+    "n_neg": 156,
+    "neg_reddit": 0
+   },
+   "violations": {
+    "I1_unique": 0,
+    "I2_no_cross_class": 0,
+    "I3_neg_not_target": 0,
+    "I4_pos_is_target": 0,
+    "I5_neg_source_ok": 0,
+    "I6_folds_disjoint": 0,
+    "I7_balanced": 0
+   },
+   "negative_sources": {
+    "twitter:Anxiety Disorder": 39,
+    "twitter:Panic Disorder": 39,
+    "twitter:Depression": 32,
+    "twitter:Anger/ Intermittent Explosive Disorder": 29,
+    "twitter:Anger/ Intermittent Explosive Disorder/Depression": 17
+   },
+   "missing_negative_shares": []
+  },
+  "npd/reddit": {
+   "info": {
+    "raw": 312,
+    "exact_removed": 0,
+    "conflict_removed": 0,
+    "n": 312,
+    "n_pos": 156,
+    "n_neg": 156,
+    "neg_reddit": 156
+   },
+   "violations": {
+    "I1_unique": 0,
+    "I2_no_cross_class": 0,
+    "I3_neg_not_target": 0,
+    "I4_pos_is_target": 0,
+    "I5_neg_source_ok": 0,
+    "I6_folds_disjoint": 0,
+    "I7_balanced": 0
+   },
+   "negative_sources": {
+    "reddit": 156
+   },
+   "missing_negative_shares": []
+  },
+  "panic/mixed": {
+   "info": {
+    "raw": 222,
+    "exact_removed": 1,
+    "conflict_removed": 0,
+    "n": 221,
+    "n_pos": 112,
+    "n_neg": 109,
+    "neg_reddit": 22
+   },
+   "violations": {
+    "I1_unique": 0,
+    "I2_no_cross_class": 0,
+    "I3_neg_not_target": 0,
+    "I4_pos_is_target": 0,
+    "I5_neg_source_ok": 0,
+    "I6_folds_disjoint": 0,
+    "I7_balanced": 0
+   },
+   "negative_sources": {
+    "twitter:Anxiety Disorder": 22,
+    "reddit": 22,
+    "twitter:Narcissistic Disorder": 22,
+    "twitter:Anger/ Intermittent Explosive Disorder": 18,
+    "twitter:Depression": 17,
+    "twitter:Anger/ Intermittent Explosive Disorder/Depression": 8
+   },
+   "missing_negative_shares": []
+  },
+  "panic/twitter": {
+   "info": {
+    "raw": 224,
+    "exact_removed": 0,
+    "conflict_removed": 0,
+    "n": 224,
+    "n_pos": 112,
+    "n_neg": 112,
+    "neg_reddit": 0
+   },
+   "violations": {
+    "I1_unique": 0,
+    "I2_no_cross_class": 0,
+    "I3_neg_not_target": 0,
+    "I4_pos_is_target": 0,
+    "I5_neg_source_ok": 0,
+    "I6_folds_disjoint": 0,
+    "I7_balanced": 0
+   },
+   "negative_sources": {
+    "twitter:Anxiety Disorder": 28,
+    "twitter:Narcissistic Disorder": 28,
+    "twitter:Anger/ Intermittent Explosive Disorder": 23,
+    "twitter:Depression": 22,
+    "twitter:Anger/ Intermittent Explosive Disorder/Depression": 11
+   },
+   "missing_negative_shares": []
+  },
+  "panic/reddit": {
+   "info": {
+    "raw": 224,
+    "exact_removed": 0,
+    "conflict_removed": 0,
+    "n": 224,
+    "n_pos": 112,
+    "n_neg": 112,
+    "neg_reddit": 112
+   },
+   "violations": {
+    "I1_unique": 0,
+    "I2_no_cross_class": 0,
+    "I3_neg_not_target": 0,
+    "I4_pos_is_target": 0,
+    "I5_neg_source_ok": 0,
+    "I6_folds_disjoint": 0,
+    "I7_balanced": 0
+   },
+   "negative_sources": {
+    "reddit": 112
+   },
+   "missing_negative_shares": []
+  }
+ },
+ "all_final_subsets_pass": true
+}

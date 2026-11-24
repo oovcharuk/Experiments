@@ -1,0 +1,39 @@
+=== external test torch=2.3.0+cpu transformers=4.41.0 sklearn=1.5.0 threads=4 {"data_dir": "../data/multi_disorders", "ext_dir": "../ext", "out": "C:\\Code_\\ovcharuk_resubmission\\round3_20261123\\exp\\out\\external", "n_per": 400, "seed": 42, "targets": ["anxiety", "depression"], "arms": ["mixed", "twitter"]}
+external sample: {"candidates": 2400, "exact_overlap": 0, "near_dup_ge_0_9": 0, "max_similarity": 0.6773295737100312, "posts_available": {"anxiety": 8586, "depression": 24533, "teaching": 549, "divorce": 1225, "guns": 3188, "fitness": 3487}, "n_anxiety": 400, "n_depression": 400, "n_control": 400}
+>>> anxiety / mixed: {"raw": 303, "exact_removed": 40, "conflict_removed": 30, "n": 233, "n_pos": 115, "n_neg": 118, "neg_reddit": 30} n_train=186 n_val=47 n_ext=1200
+      epoch 1: loss=1.1249 (ce 0.678 focal 0.042 dice 0.405)
+      epoch 2: loss=1.0403 (ce 0.644 focal 0.046 dice 0.350)
+      epoch 3: loss=0.8408 (ce 0.497 focal 0.027 dice 0.317)
+      epoch 4: loss=0.6557 (ce 0.374 focal 0.015 dice 0.266)
+   ext anxiety/mixed vs control: DistilBERT AUC=0.648 F1=0.352 (sens 0.02 spec 1.00) F1recal=0.609 | TF-IDF AUC=0.579 F1=0.548 F1recal=0.543
+   ext anxiety/mixed vs depression: DistilBERT AUC=0.610 F1=0.350 (sens 0.02 spec 0.99) F1recal=0.562 | TF-IDF AUC=0.654 F1=0.585 F1recal=0.609
+   ext anxiety/mixed vs both: DistilBERT AUC=0.629 F1=0.545 (sens 0.02 spec 0.99) F1recal=0.527 | TF-IDF AUC=0.617 F1=0.632 F1recal=0.576
+   cost anxiety/mixed: DistilBERT train 282s on 186 texts, inference 193.5s on 1247 texts | TF-IDF fit 0.02s, predict 0.540s on 1247 texts
+>>> anxiety / twitter: {"raw": 291, "exact_removed": 0, "conflict_removed": 0, "n": 291, "n_pos": 145, "n_neg": 146, "neg_reddit": 0} n_train=232 n_val=59 n_ext=1200
+      epoch 1: loss=1.1346 (ce 0.686 focal 0.043 dice 0.406)
+      epoch 2: loss=0.9390 (ce 0.564 focal 0.033 dice 0.342)
+      epoch 3: loss=0.6096 (ce 0.360 focal 0.023 dice 0.226)
+      epoch 4: loss=0.4340 (ce 0.244 focal 0.015 dice 0.176)
+   ext anxiety/twitter vs control: DistilBERT AUC=0.713 F1=0.642 (sens 0.70 spec 0.58) F1recal=0.674 | TF-IDF AUC=0.683 F1=0.615 F1recal=0.587
+   ext anxiety/twitter vs depression: DistilBERT AUC=0.772 F1=0.715 (sens 0.70 spec 0.72) F1recal=0.708 | TF-IDF AUC=0.713 F1=0.627 F1recal=0.601
+   ext anxiety/twitter vs both: DistilBERT AUC=0.742 F1=0.680 (sens 0.70 spec 0.65) F1recal=0.748 | TF-IDF AUC=0.698 F1=0.690 F1recal=0.692
+   cost anxiety/twitter: DistilBERT train 291s on 232 texts, inference 172.0s on 1259 texts | TF-IDF fit 0.02s, predict 0.328s on 1259 texts
+>>> depression / mixed: {"raw": 413, "exact_removed": 9, "conflict_removed": 8, "n": 396, "n_pos": 199, "n_neg": 197, "neg_reddit": 41} n_train=316 n_val=80 n_ext=1200
+      epoch 1: loss=1.1196 (ce 0.678 focal 0.044 dice 0.398)
+      epoch 2: loss=0.9098 (ce 0.546 focal 0.036 dice 0.327)
+      epoch 3: loss=0.6044 (ce 0.356 focal 0.028 dice 0.221)
+      epoch 4: loss=0.4038 (ce 0.237 focal 0.022 dice 0.144)
+   ext depression/mixed vs control: DistilBERT AUC=0.817 F1=0.387 (sens 0.05 spec 1.00) F1recal=0.749 | TF-IDF AUC=0.619 F1=0.476 F1recal=0.564
+   ext depression/mixed vs anxiety: DistilBERT AUC=0.706 F1=0.383 (sens 0.05 spec 0.99) F1recal=0.653 | TF-IDF AUC=0.677 F1=0.478 F1recal=0.536
+   ext depression/mixed vs both: DistilBERT AUC=0.761 F1=0.568 (sens 0.05 spec 0.99) F1recal=0.726 | TF-IDF AUC=0.648 F1=0.619 F1recal=0.664
+   cost depression/mixed: DistilBERT train 423s on 316 texts, inference 165.0s on 1280 texts | TF-IDF fit 0.02s, predict 0.362s on 1280 texts
+>>> depression / twitter: {"raw": 415, "exact_removed": 0, "conflict_removed": 0, "n": 415, "n_pos": 207, "n_neg": 208, "neg_reddit": 0} n_train=332 n_val=83 n_ext=1200
+      epoch 1: loss=1.1373 (ce 0.690 focal 0.045 dice 0.401)
+      epoch 2: loss=0.9162 (ce 0.552 focal 0.036 dice 0.329)
+      epoch 3: loss=0.6082 (ce 0.359 focal 0.031 dice 0.219)
+      epoch 4: loss=0.4500 (ce 0.268 focal 0.029 dice 0.153)
+   ext depression/twitter vs control: DistilBERT AUC=0.808 F1=0.695 (sens 0.88 spec 0.53) F1recal=0.723 | TF-IDF AUC=0.687 F1=0.619 F1recal=0.618
+   ext depression/twitter vs anxiety: DistilBERT AUC=0.714 F1=0.585 (sens 0.88 spec 0.35) F1recal=0.612 | TF-IDF AUC=0.692 F1=0.631 F1recal=0.618
+   ext depression/twitter vs both: DistilBERT AUC=0.761 F1=0.587 (sens 0.88 spec 0.44) F1recal=0.738 | TF-IDF AUC=0.689 F1=0.669 F1recal=0.672
+   cost depression/twitter: DistilBERT train 360s on 332 texts, inference 155.9s on 1283 texts | TF-IDF fit 0.02s, predict 0.389s on 1283 texts
+DONE external

@@ -1,0 +1,28 @@
+=== lc_anx_tw_025 device=cuda {"tag": "lc_anx_tw_025", "disorders": ["anxiety"], "negatives": "twitter", "ce": 1.0, "focal": 1.0, "dice": 1.0, "focal_alpha": 0.25, "focal_gamma": 2.0, "train_frac": 0.25, "folds": 4, "inner_val": 0.2, "seed": 42, "epochs": 4, "batch_size": 4, "lr": 2e-05, "weight_decay": 0.1, "dropout": 0.3, "warmup_steps": 24, "max_length": 128, "model_name": "distilbert-base-uncased", "bootstrap": 2000, "shap": false, "out": "C:\\Users\\mish\\AppData\\Local\\Temp\\claude\\C--Code-\\fe38dc1c-271a-43af-b684-ace60bccb427\\scratchpad\\exp\\out"}
+>>> Anxiety (d2): {"raw": 291, "exact_removed": 0, "conflict_removed": 0, "n": 291, "n_pos": 145, "n_neg": 146, "neg_reddit": 0}
+   fold 1: n_train=43 n_val=44 n_test=73
+      epoch 1: loss=1.1716 (ce 0.700 focal 0.045 dice 0.427)
+      epoch 2: loss=1.1600 (ce 0.695 focal 0.045 dice 0.421)
+      epoch 3: loss=1.1336 (ce 0.681 focal 0.042 dice 0.410)
+      epoch 4: loss=1.1071 (ce 0.661 focal 0.040 dice 0.406)
+   fold 1: tau=0.5352 F1=0.6023 AUC=0.6449 TP=21 FP=13 FN=16 TN=23 [43s]
+   fold 2: n_train=43 n_val=44 n_test=73
+      epoch 1: loss=1.1499 (ce 0.699 focal 0.044 dice 0.407)
+      epoch 2: loss=1.1440 (ce 0.698 focal 0.045 dice 0.402)
+      epoch 3: loss=1.1111 (ce 0.678 focal 0.043 dice 0.390)
+      epoch 4: loss=1.0941 (ce 0.659 focal 0.041 dice 0.394)
+   fold 2: tau=0.5339 F1=0.5689 AUC=0.6584 TP=32 FP=25 FN=4 TN=12 [36s]
+   fold 3: n_train=43 n_val=44 n_test=73
+      epoch 1: loss=1.1601 (ce 0.692 focal 0.044 dice 0.425)
+      epoch 2: loss=1.1382 (ce 0.685 focal 0.042 dice 0.411)
+      epoch 3: loss=1.1469 (ce 0.692 focal 0.044 dice 0.411)
+      epoch 4: loss=1.0929 (ce 0.662 focal 0.040 dice 0.391)
+   fold 3: tau=0.5389 F1=0.6606 AUC=0.7312 TP=15 FP=2 FN=21 TN=35 [36s]
+   fold 4: n_train=43 n_val=44 n_test=72
+      epoch 1: loss=1.1747 (ce 0.698 focal 0.046 dice 0.431)
+      epoch 2: loss=1.1980 (ce 0.702 focal 0.046 dice 0.451)
+      epoch 3: loss=1.1067 (ce 0.669 focal 0.040 dice 0.398)
+      epoch 4: loss=1.0926 (ce 0.662 focal 0.040 dice 0.391)
+   fold 4: tau=0.5450 F1=0.6364 AUC=0.7407 TP=20 FP=10 FN=16 TN=26 [36s]
+<<< Anxiety (d2): OOF F1=0.6321 [0.577,0.687] AUC=0.6727 TP=88 FP=50 FN=57 TN=96 fold F1 0.617±0.040
+DONE lc_anx_tw_025

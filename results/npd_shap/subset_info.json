@@ -1,0 +1,11 @@
+{
+ "npd": {
+  "raw": 313,
+  "exact_removed": 4,
+  "conflict_removed": 0,
+  "n": 309,
+  "n_pos": 156,
+  "n_neg": 153,
+  "neg_reddit": 31
+ }
+}

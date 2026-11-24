@@ -1,0 +1,116 @@
+{
+ "anger": {
+  "n": 292,
+  "n_pos": 147,
+  "length_only_auc": 0.501360544217687,
+  "mean_words_pos": 11.197278911564625,
+  "mean_words_neg": 11.682758620689656,
+  "keyword_stems": [
+   "anger"
+  ],
+  "keyword_rate": {
+   "pos": 0.4013605442176871,
+   "neg": 0.027586206896551724
+  },
+  "near_dup_pairs_ge_0_9": 0,
+  "tfidf_lr_oof_f1": 0.8249422281463022,
+  "tfidf_lr_oof_auc": 0.9261552897020876,
+  "tfidf_fit_s_per_fold": 0.03276717500000359,
+  "tfidf_predict_ms_per_text": 0.10758482905988585,
+  "tfidf_n_features": 1691
+ },
+ "anxiety": {
+  "n": 233,
+  "n_pos": 115,
+  "length_only_auc": 0.49458364038319824,
+  "mean_words_pos": 11.28695652173913,
+  "mean_words_neg": 11.974576271186441,
+  "keyword_stems": [
+   "anxi",
+   "worr"
+  ],
+  "keyword_rate": {
+   "pos": 0.3217391304347826,
+   "neg": 0.025423728813559324
+  },
+  "near_dup_pairs_ge_0_9": 1,
+  "tfidf_lr_oof_f1": 0.755121312490067,
+  "tfidf_lr_oof_auc": 0.8298452468680915,
+  "tfidf_fit_s_per_fold": 0.030323475000017197,
+  "tfidf_predict_ms_per_text": 0.13313832361010636,
+  "tfidf_n_features": 1468
+ },
+ "depression": {
+  "n": 396,
+  "n_pos": 199,
+  "length_only_auc": 0.42603882355942146,
+  "mean_words_pos": 10.311557788944723,
+  "mean_words_neg": 11.583756345177665,
+  "keyword_stems": [
+   "depress"
+  ],
+  "keyword_rate": {
+   "pos": 0.0,
+   "neg": 0.005076142131979695
+  },
+  "near_dup_pairs_ge_0_9": 0,
+  "tfidf_lr_oof_f1": 0.7626262626262627,
+  "tfidf_lr_oof_auc": 0.8307272402622248,
+  "tfidf_fit_s_per_fold": 0.039541775000003554,
+  "tfidf_predict_ms_per_text": 0.11134166666666277,
+  "tfidf_n_features": 2201
+ },
+ "npd": {
+  "n": 309,
+  "n_pos": 156,
+  "length_only_auc": 0.366222557399028,
+  "mean_words_pos": 10.301282051282051,
+  "mean_words_neg": 11.81045751633987,
+  "keyword_stems": [
+   "narciss",
+   "grandi"
+  ],
+  "keyword_rate": {
+   "pos": 0.0,
+   "neg": 0.0
+  },
+  "near_dup_pairs_ge_0_9": 0,
+  "tfidf_lr_oof_f1": 0.8834463252931661,
+  "tfidf_lr_oof_auc": 0.9603653427182839,
+  "tfidf_fit_s_per_fold": 0.036436550000004786,
+  "tfidf_predict_ms_per_text": 0.10296977419364893,
+  "tfidf_n_features": 1890
+ },
+ "panic": {
+  "n": 221,
+  "n_pos": 112,
+  "length_only_auc": 0.3954374180865006,
+  "mean_words_pos": 10.5625,
+  "mean_words_neg": 12.064220183486238,
+  "keyword_stems": [
+   "panic"
+  ],
+  "keyword_rate": {
+   "pos": 0.25892857142857145,
+   "neg": 0.0
+  },
+  "near_dup_pairs_ge_0_9": 0,
+  "tfidf_lr_oof_f1": 0.7916246905148128,
+  "tfidf_lr_oof_auc": 0.8876965923984272,
+  "tfidf_fit_s_per_fold": 0.03190112500000453,
+  "tfidf_predict_ms_per_text": 0.1366983146067277,
+  "tfidf_n_features": 1379
+ },
+ "centroid_similarity": {
+  "Anger/ Intermittent Explosive Disorder | Anxiety Disorder": 0.44742107595995073,
+  "Anger/ Intermittent Explosive Disorder | Depression": 0.47931388233643407,
+  "Anger/ Intermittent Explosive Disorder | Narcissistic Disorder": 0.37420790498260814,
+  "Anger/ Intermittent Explosive Disorder | Panic Disorder": 0.3768572906979849,
+  "Anxiety Disorder | Depression": 0.5781982155090833,
+  "Anxiety Disorder | Narcissistic Disorder": 0.44638109676457144,
+  "Anxiety Disorder | Panic Disorder": 0.6109557697686242,
+  "Depression | Narcissistic Disorder": 0.46814241198001544,
+  "Depression | Panic Disorder": 0.5015668404859858,
+  "Narcissistic Disorder | Panic Disorder": 0.37009333280891893
+ }
+}

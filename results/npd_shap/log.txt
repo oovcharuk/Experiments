@@ -1,0 +1,32 @@
+=== npd_shap device=cuda {"tag": "npd_shap", "disorders": ["npd"], "negatives": "mixed", "ce": 1.0, "focal": 1.0, "dice": 1.0, "focal_alpha": 0.25, "focal_gamma": 2.0, "train_frac": 1.0, "folds": 4, "inner_val": 0.2, "seed": 42, "epochs": 4, "batch_size": 4, "lr": 2e-05, "weight_decay": 0.1, "dropout": 0.3, "warmup_steps": 24, "max_length": 128, "model_name": "distilbert-base-uncased", "bootstrap": 2000, "shap": true, "out": "C:\\Users\\mish\\AppData\\Local\\Temp\\claude\\C--Code-\\fe38dc1c-271a-43af-b684-ace60bccb427\\scratchpad\\exp\\out"}
+>>> NPD (d4): {"raw": 313, "exact_removed": 4, "conflict_removed": 0, "n": 309, "n_pos": 156, "n_neg": 153, "neg_reddit": 31}
+   fold 1: n_train=184 n_val=47 n_test=78
+      epoch 1: loss=1.1221 (ce 0.678 focal 0.043 dice 0.401)
+      epoch 2: loss=0.7324 (ce 0.441 focal 0.023 dice 0.269)
+      epoch 3: loss=0.3389 (ce 0.196 focal 0.011 dice 0.132)
+      epoch 4: loss=0.1598 (ce 0.088 focal 0.005 dice 0.067)
+      shap: 78 texts in 94s
+   fold 1: tau=0.8722 F1=0.8968 AUC=0.9737 TP=32 FP=1 FN=7 TN=38 [146s]
+   fold 2: n_train=185 n_val=47 n_test=77
+      epoch 1: loss=1.0961 (ce 0.665 focal 0.042 dice 0.390)
+      epoch 2: loss=0.5758 (ce 0.329 focal 0.017 dice 0.230)
+      epoch 3: loss=0.3462 (ce 0.201 focal 0.029 dice 0.115)
+      epoch 4: loss=0.1289 (ce 0.075 focal 0.008 dice 0.047)
+      shap: 77 texts in 78s
+   fold 2: tau=0.4485 F1=0.9351 AUC=0.9818 TP=36 FP=2 FN=3 TN=36 [128s]
+   fold 3: n_train=185 n_val=47 n_test=77
+      epoch 1: loss=1.1057 (ce 0.673 focal 0.042 dice 0.390)
+      epoch 2: loss=0.7957 (ce 0.464 focal 0.023 dice 0.309)
+      epoch 3: loss=0.3443 (ce 0.192 focal 0.007 dice 0.145)
+      epoch 4: loss=0.1470 (ce 0.079 focal 0.002 dice 0.066)
+      shap: 77 texts in 81s
+   fold 3: tau=0.9316 F1=0.9479 AUC=0.9987 TP=35 FP=0 FN=4 TN=38 [130s]
+   fold 4: n_train=185 n_val=47 n_test=77
+      epoch 1: loss=1.1242 (ce 0.673 focal 0.043 dice 0.408)
+      epoch 2: loss=0.6763 (ce 0.400 focal 0.022 dice 0.254)
+      epoch 3: loss=0.3076 (ce 0.173 focal 0.012 dice 0.122)
+      epoch 4: loss=0.1327 (ce 0.075 focal 0.006 dice 0.052)
+      shap: 77 texts in 88s
+   fold 4: tau=0.1178 F1=0.9740 AUC=0.9993 TP=39 FP=2 FN=0 TN=36 [140s]
+<<< NPD (d4): OOF F1=0.9385 [0.912,0.964] AUC=0.9887 TP=142 FP=5 FN=14 TN=148 fold F1 0.938±0.032
+DONE npd_shap

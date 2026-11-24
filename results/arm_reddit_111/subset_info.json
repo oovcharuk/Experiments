@@ -1,0 +1,47 @@
+{
+ "anger": {
+  "raw": 304,
+  "exact_removed": 0,
+  "conflict_removed": 0,
+  "n": 304,
+  "n_pos": 152,
+  "n_neg": 152,
+  "neg_reddit": 152
+ },
+ "anxiety": {
+  "raw": 290,
+  "exact_removed": 0,
+  "conflict_removed": 0,
+  "n": 290,
+  "n_pos": 145,
+  "n_neg": 145,
+  "neg_reddit": 145
+ },
+ "depression": {
+  "raw": 414,
+  "exact_removed": 0,
+  "conflict_removed": 0,
+  "n": 414,
+  "n_pos": 207,
+  "n_neg": 207,
+  "neg_reddit": 207
+ },
+ "npd": {
+  "raw": 312,
+  "exact_removed": 0,
+  "conflict_removed": 0,
+  "n": 312,
+  "n_pos": 156,
+  "n_neg": 156,
+  "neg_reddit": 156
+ },
+ "panic": {
+  "raw": 224,
+  "exact_removed": 0,
+  "conflict_removed": 0,
+  "n": 224,
+  "n_pos": 112,
+  "n_neg": 112,
+  "neg_reddit": 112
+ }
+}

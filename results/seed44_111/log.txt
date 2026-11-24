@@ -1,0 +1,150 @@
+=== seed44_111 device=cpu torch=2.3.0+cpu transformers=4.41.0 sklearn=1.5.0 threads=4 {"tag": "seed44_111", "disorders": ["anxiety"], "negatives": "mixed", "ce": 1.0, "focal": 1.0, "dice": 1.0, "focal_alpha": 0.25, "focal_gamma": 2.0, "train_frac": 1.0, "folds": 4, "inner_val": 0.2, "seed": 42, "epochs": 4, "batch_size": 4, "lr": 2e-05, "weight_decay": 0.1, "dropout": 0.3, "warmup_steps": 24, "max_length": 128, "model_name": "distilbert/distilbert-base-uncased", "bootstrap": 2000, "shap": false, "out": "C:\\Code_\\ovcharuk_resubmission\\round3_20261123\\exp\\out", "train_seed": 44, "data_dir": "../data/multi_disorders", "max_folds": null}
+>>> Anxiety (d2): {"raw": 303, "exact_removed": 40, "conflict_removed": 30, "n": 233, "n_pos": 115, "n_neg": 118, "neg_reddit": 30}
+   fold 1: n_train=139 n_val=35 n_test=59
+      epoch 1: loss=1.1392 (ce 0.686 focal 0.043 dice 0.411)
+      epoch 2: loss=1.1033 (ce 0.672 focal 0.046 dice 0.385)
+      epoch 3: loss=0.9841 (ce 0.594 focal 0.036 dice 0.355)
+      epoch 4: loss=0.8869 (ce 0.527 focal 0.029 dice 0.330)
+   fold 1: tau=0.6558 F1=0.8075 AUC=0.9276 TP=29 FP=11 FN=0 TN=19 [156s]
+   fold 2: n_train=140 n_val=35 n_test=58
+      epoch 1: loss=1.1729 (ce 0.698 focal 0.045 dice 0.430)
+      epoch 2: loss=1.0820 (ce 0.657 focal 0.044 dice 0.380)
+      epoch 3: loss=1.0069 (ce 0.616 focal 0.038 dice 0.353)
+      epoch 4: loss=0.9140 (ce 0.561 focal 0.034 dice 0.319)
+   fold 2: tau=0.6503 F1=0.7175 AUC=0.8179 TP=25 FP=13 FN=3 TN=17 [160s]
+   fold 3: n_train=140 n_val=35 n_test=58
+      epoch 1: loss=1.1521 (ce 0.694 focal 0.044 dice 0.413)
+      epoch 2: loss=1.1131 (ce 0.676 focal 0.043 dice 0.394)
+      epoch 3: loss=1.0089 (ce 0.615 focal 0.039 dice 0.355)
+      epoch 4: loss=0.9081 (ce 0.540 focal 0.028 dice 0.341)
+   fold 3: tau=0.6836 F1=0.8954 AUC=0.9667 TP=23 FP=0 FN=6 TN=29 [176s]
+   fold 4: n_train=140 n_val=35 n_test=58
+      epoch 1: loss=1.1584 (ce 0.695 focal 0.044 dice 0.419)
+      epoch 2: loss=1.0886 (ce 0.670 focal 0.048 dice 0.371)
+      epoch 3: loss=1.0075 (ce 0.606 focal 0.036 dice 0.365)
+      epoch 4: loss=0.9201 (ce 0.563 focal 0.038 dice 0.319)
+   fold 4: tau=0.6917 F1=0.7560 AUC=0.8704 TP=25 FP=10 FN=4 TN=19 [165s]
+<<< Anxiety (d2): OOF F1=0.7969 [0.743,0.845] AUC=0.8727 TP=102 FP=34 FN=13 TN=84 fold F1 0.794+-0.077
+DONE seed44_111 anxiety
+=== seed44_111 device=cpu torch=2.3.0+cpu transformers=4.41.0 sklearn=1.5.0 threads=4 {"tag": "seed44_111", "disorders": ["depression"], "negatives": "mixed", "ce": 1.0, "focal": 1.0, "dice": 1.0, "focal_alpha": 0.25, "focal_gamma": 2.0, "train_frac": 1.0, "folds": 4, "inner_val": 0.2, "seed": 42, "epochs": 4, "batch_size": 4, "lr": 2e-05, "weight_decay": 0.1, "dropout": 0.3, "warmup_steps": 24, "max_length": 128, "model_name": "distilbert/distilbert-base-uncased", "bootstrap": 2000, "shap": false, "out": "C:\\Code_\\ovcharuk_resubmission\\round3_20261123\\exp\\out", "train_seed": 44, "data_dir": "../data/multi_disorders", "max_folds": null}
+>>> Depression (d3): {"raw": 413, "exact_removed": 9, "conflict_removed": 8, "n": 396, "n_pos": 199, "n_neg": 197, "neg_reddit": 41}
+   fold 1: n_train=237 n_val=60 n_test=99
+      epoch 1: loss=1.1217 (ce 0.681 focal 0.043 dice 0.397)
+      epoch 2: loss=0.9853 (ce 0.600 focal 0.040 dice 0.346)
+      epoch 3: loss=0.7087 (ce 0.420 focal 0.029 dice 0.260)
+      epoch 4: loss=0.5111 (ce 0.296 focal 0.022 dice 0.194)
+   fold 1: tau=0.8863 F1=0.8383 AUC=0.9355 TP=40 FP=7 FN=9 TN=43 [329s]
+   fold 2: n_train=237 n_val=60 n_test=99
+      epoch 1: loss=1.1592 (ce 0.701 focal 0.047 dice 0.412)
+      epoch 2: loss=1.0394 (ce 0.635 focal 0.040 dice 0.365)
+      epoch 3: loss=0.8799 (ce 0.532 focal 0.031 dice 0.317)
+      epoch 4: loss=0.7639 (ce 0.454 focal 0.024 dice 0.286)
+   fold 2: tau=0.7627 F1=0.7863 AUC=0.8906 TP=35 FP=6 FN=15 TN=43 [324s]
+   fold 3: n_train=237 n_val=60 n_test=99
+      epoch 1: loss=1.1409 (ce 0.697 focal 0.046 dice 0.397)
+      epoch 2: loss=1.0135 (ce 0.616 focal 0.038 dice 0.359)
+      epoch 3: loss=0.7271 (ce 0.428 focal 0.028 dice 0.272)
+      epoch 4: loss=0.5475 (ce 0.321 focal 0.022 dice 0.204)
+   fold 3: tau=0.7703 F1=0.8161 AUC=0.9073 TP=46 FP=14 FN=4 TN=35 [327s]
+   fold 4: n_train=237 n_val=60 n_test=99
+      epoch 1: loss=1.1203 (ce 0.683 focal 0.045 dice 0.392)
+      epoch 2: loss=1.0103 (ce 0.622 focal 0.043 dice 0.346)
+      epoch 3: loss=0.7416 (ce 0.448 focal 0.027 dice 0.267)
+      epoch 4: loss=0.6096 (ce 0.356 focal 0.025 dice 0.228)
+   fold 4: tau=0.7149 F1=0.8267 AUC=0.9159 TP=46 FP=13 FN=4 TN=36 [327s]
+<<< Anxiety (d2): OOF F1=0.7969 [0.743,0.845] AUC=0.8727 TP=102 FP=34 FN=13 TN=84 fold F1 0.794+-0.077
+<<< Depression (d3): OOF F1=0.8181 [0.780,0.856] AUC=0.8995 TP=167 FP=40 FN=32 TN=157 fold F1 0.817+-0.022
+DONE seed44_111 depression
+=== seed44_111 device=cpu torch=2.3.0+cpu transformers=4.41.0 sklearn=1.5.0 threads=4 {"tag": "seed44_111", "disorders": ["npd"], "negatives": "mixed", "ce": 1.0, "focal": 1.0, "dice": 1.0, "focal_alpha": 0.25, "focal_gamma": 2.0, "train_frac": 1.0, "folds": 4, "inner_val": 0.2, "seed": 42, "epochs": 4, "batch_size": 4, "lr": 2e-05, "weight_decay": 0.1, "dropout": 0.3, "warmup_steps": 24, "max_length": 128, "model_name": "distilbert/distilbert-base-uncased", "bootstrap": 2000, "shap": false, "out": "C:\\Code_\\ovcharuk_resubmission\\round3_20261123\\exp\\out", "train_seed": 44, "data_dir": "../data/multi_disorders", "max_folds": null}
+>>> NPD (d4): {"raw": 313, "exact_removed": 4, "conflict_removed": 0, "n": 309, "n_pos": 156, "n_neg": 153, "neg_reddit": 31}
+   fold 1: n_train=184 n_val=47 n_test=78
+      epoch 1: loss=1.1421 (ce 0.689 focal 0.044 dice 0.409)
+      epoch 2: loss=0.7253 (ce 0.422 focal 0.021 dice 0.282)
+      epoch 3: loss=0.3206 (ce 0.190 focal 0.018 dice 0.113)
+      epoch 4: loss=0.1258 (ce 0.071 focal 0.006 dice 0.049)
+   fold 1: tau=0.9280 F1=0.9095 AUC=0.9730 TP=32 FP=0 FN=7 TN=39 [189s]
+   fold 2: n_train=185 n_val=47 n_test=77
+      epoch 1: loss=1.0831 (ce 0.647 focal 0.039 dice 0.397)
+      epoch 2: loss=0.5976 (ce 0.347 focal 0.018 dice 0.232)
+      epoch 3: loss=0.2113 (ce 0.119 focal 0.009 dice 0.083)
+      epoch 4: loss=0.1172 (ce 0.066 focal 0.007 dice 0.044)
+   fold 2: tau=0.9334 F1=0.8951 AUC=0.9892 TP=31 FP=0 FN=8 TN=38 [188s]
+   fold 3: n_train=185 n_val=47 n_test=77
+      epoch 1: loss=1.0854 (ce 0.651 focal 0.039 dice 0.395)
+      epoch 2: loss=0.5446 (ce 0.321 focal 0.014 dice 0.209)
+      epoch 3: loss=0.1788 (ce 0.101 focal 0.008 dice 0.070)
+      epoch 4: loss=0.0481 (ce 0.024 focal 0.000 dice 0.024)
+   fold 3: tau=0.9875 F1=0.9610 AUC=0.9933 TP=36 FP=0 FN=3 TN=38 [188s]
+   fold 4: n_train=185 n_val=47 n_test=77
+      epoch 1: loss=1.0806 (ce 0.659 focal 0.041 dice 0.381)
+      epoch 2: loss=0.7527 (ce 0.462 focal 0.029 dice 0.262)
+      epoch 3: loss=0.3437 (ce 0.197 focal 0.013 dice 0.134)
+      epoch 4: loss=0.1795 (ce 0.104 focal 0.008 dice 0.067)
+   fold 4: tau=0.8834 F1=0.9610 AUC=0.9993 TP=36 FP=0 FN=3 TN=38 [188s]
+<<< Anxiety (d2): OOF F1=0.7969 [0.743,0.845] AUC=0.8727 TP=102 FP=34 FN=13 TN=84 fold F1 0.794+-0.077
+<<< Depression (d3): OOF F1=0.8181 [0.780,0.856] AUC=0.8995 TP=167 FP=40 FN=32 TN=157 fold F1 0.817+-0.022
+<<< NPD (d4): OOF F1=0.9318 [0.902,0.958] AUC=0.9865 TP=135 FP=0 FN=21 TN=153 fold F1 0.932+-0.034
+DONE seed44_111 npd
+=== seed44_111 device=cpu torch=2.3.0+cpu transformers=4.41.0 sklearn=1.5.0 threads=4 {"tag": "seed44_111", "disorders": ["panic"], "negatives": "mixed", "ce": 1.0, "focal": 1.0, "dice": 1.0, "focal_alpha": 0.25, "focal_gamma": 2.0, "train_frac": 1.0, "folds": 4, "inner_val": 0.2, "seed": 42, "epochs": 4, "batch_size": 4, "lr": 2e-05, "weight_decay": 0.1, "dropout": 0.3, "warmup_steps": 24, "max_length": 128, "model_name": "distilbert/distilbert-base-uncased", "bootstrap": 2000, "shap": false, "out": "C:\\Code_\\ovcharuk_resubmission\\round3_20261123\\exp\\out", "train_seed": 44, "data_dir": "../data/multi_disorders", "max_folds": null}
+>>> Panic (d5): {"raw": 222, "exact_removed": 1, "conflict_removed": 0, "n": 221, "n_pos": 112, "n_neg": 109, "neg_reddit": 22}
+   fold 1: n_train=132 n_val=33 n_test=56
+      epoch 1: loss=1.1239 (ce 0.676 focal 0.042 dice 0.407)
+      epoch 2: loss=0.9404 (ce 0.578 focal 0.041 dice 0.322)
+      epoch 3: loss=0.7207 (ce 0.430 focal 0.029 dice 0.262)
+      epoch 4: loss=0.5528 (ce 0.322 focal 0.021 dice 0.209)
+   fold 1: tau=0.8342 F1=0.8542 AUC=0.9643 TP=28 FP=8 FN=0 TN=20 [201s]
+   fold 2: n_train=132 n_val=34 n_test=55
+      epoch 1: loss=1.1680 (ce 0.700 focal 0.046 dice 0.422)
+      epoch 2: loss=1.0153 (ce 0.624 focal 0.041 dice 0.351)
+      epoch 3: loss=0.7637 (ce 0.460 focal 0.022 dice 0.282)
+      epoch 4: loss=0.6320 (ce 0.373 focal 0.019 dice 0.240)
+   fold 2: tau=0.8824 F1=0.8727 AUC=0.9563 TP=24 FP=3 FN=4 TN=24 [165s]
+   fold 3: n_train=132 n_val=34 n_test=55
+      epoch 1: loss=1.1645 (ce 0.705 focal 0.046 dice 0.414)
+      epoch 2: loss=1.0098 (ce 0.615 focal 0.036 dice 0.359)
+      epoch 3: loss=0.7385 (ce 0.437 focal 0.023 dice 0.279)
+      epoch 4: loss=0.5938 (ce 0.343 focal 0.018 dice 0.233)
+   fold 3: tau=0.8795 F1=0.8181 AUC=0.9352 TP=22 FP=4 FN=6 TN=23 [176s]
+   fold 4: n_train=132 n_val=34 n_test=55
+      epoch 1: loss=1.1338 (ce 0.697 focal 0.047 dice 0.390)
+      epoch 2: loss=1.0215 (ce 0.627 focal 0.043 dice 0.351)
+      epoch 3: loss=0.7573 (ce 0.457 focal 0.024 dice 0.276)
+      epoch 4: loss=0.5960 (ce 0.353 focal 0.020 dice 0.223)
+   fold 4: tau=0.8417 F1=0.8536 AUC=0.9616 TP=26 FP=6 FN=2 TN=21 [171s]
+<<< Anxiety (d2): OOF F1=0.7969 [0.743,0.845] AUC=0.8727 TP=102 FP=34 FN=13 TN=84 fold F1 0.794+-0.077
+<<< Depression (d3): OOF F1=0.8181 [0.780,0.856] AUC=0.8995 TP=167 FP=40 FN=32 TN=157 fold F1 0.817+-0.022
+<<< NPD (d4): OOF F1=0.9318 [0.902,0.958] AUC=0.9865 TP=135 FP=0 FN=21 TN=153 fold F1 0.932+-0.034
+<<< Panic (d5): OOF F1=0.8503 [0.800,0.900] AUC=0.9524 TP=100 FP=21 FN=12 TN=88 fold F1 0.850+-0.023
+DONE seed44_111 panic
+=== seed44_111 device=cpu torch=2.3.0+cpu transformers=4.41.0 sklearn=1.5.0 threads=4 {"tag": "seed44_111", "disorders": ["anger"], "negatives": "mixed", "ce": 1.0, "focal": 1.0, "dice": 1.0, "focal_alpha": 0.25, "focal_gamma": 2.0, "train_frac": 1.0, "folds": 4, "inner_val": 0.2, "seed": 42, "epochs": 4, "batch_size": 4, "lr": 2e-05, "weight_decay": 0.1, "dropout": 0.3, "warmup_steps": 24, "max_length": 128, "model_name": "distilbert/distilbert-base-uncased", "bootstrap": 2000, "shap": false, "out": "C:\\Code_\\ovcharuk_resubmission\\round3_20261123\\exp\\out", "train_seed": 44, "data_dir": "../data/multi_disorders", "max_folds": null}
+>>> Anger/IED (d1): {"raw": 304, "exact_removed": 7, "conflict_removed": 5, "n": 292, "n_pos": 147, "n_neg": 145, "neg_reddit": 30}
+   fold 1: n_train=175 n_val=44 n_test=73
+      epoch 1: loss=1.1378 (ce 0.686 focal 0.043 dice 0.408)
+      epoch 2: loss=0.8514 (ce 0.510 focal 0.028 dice 0.313)
+      epoch 3: loss=0.3887 (ce 0.222 focal 0.011 dice 0.156)
+      epoch 4: loss=0.2518 (ce 0.143 focal 0.011 dice 0.098)
+   fold 1: tau=0.9626 F1=0.9311 AUC=0.9752 TP=31 FP=0 FN=5 TN=37 [205s]
+   fold 2: n_train=175 n_val=44 n_test=73
+      epoch 1: loss=1.1589 (ce 0.693 focal 0.044 dice 0.422)
+      epoch 2: loss=0.9022 (ce 0.549 focal 0.032 dice 0.322)
+      epoch 3: loss=0.5671 (ce 0.333 focal 0.015 dice 0.219)
+      epoch 4: loss=0.3828 (ce 0.215 focal 0.015 dice 0.153)
+   fold 2: tau=0.9256 F1=0.9726 AUC=0.9820 TP=35 FP=0 FN=2 TN=36 [222s]
+   fold 3: n_train=175 n_val=44 n_test=73
+      epoch 1: loss=1.1365 (ce 0.689 focal 0.044 dice 0.404)
+      epoch 2: loss=0.9241 (ce 0.557 focal 0.033 dice 0.334)
+      epoch 3: loss=0.4902 (ce 0.281 focal 0.013 dice 0.196)
+      epoch 4: loss=0.2742 (ce 0.152 focal 0.007 dice 0.114)
+   fold 3: tau=0.9066 F1=0.9452 AUC=0.9917 TP=34 FP=1 FN=3 TN=35 [196s]
+   fold 4: n_train=175 n_val=44 n_test=73
+      epoch 1: loss=1.1382 (ce 0.693 focal 0.045 dice 0.401)
+      epoch 2: loss=0.8845 (ce 0.522 focal 0.027 dice 0.336)
+      epoch 3: loss=0.4503 (ce 0.250 focal 0.016 dice 0.184)
+      epoch 4: loss=0.2771 (ce 0.157 focal 0.015 dice 0.105)
+   fold 4: tau=0.4913 F1=0.9175 AUC=0.9797 TP=36 FP=5 FN=1 TN=31 [210s]
+<<< Anger/IED (d1): OOF F1=0.9418 [0.914,0.966] AUC=0.9810 TP=136 FP=6 FN=11 TN=139 fold F1 0.942+-0.024
+<<< Anxiety (d2): OOF F1=0.7969 [0.743,0.845] AUC=0.8727 TP=102 FP=34 FN=13 TN=84 fold F1 0.794+-0.077
+<<< Depression (d3): OOF F1=0.8181 [0.780,0.856] AUC=0.8995 TP=167 FP=40 FN=32 TN=157 fold F1 0.817+-0.022
+<<< NPD (d4): OOF F1=0.9318 [0.902,0.958] AUC=0.9865 TP=135 FP=0 FN=21 TN=153 fold F1 0.932+-0.034
+<<< Panic (d5): OOF F1=0.8503 [0.800,0.900] AUC=0.9524 TP=100 FP=21 FN=12 TN=88 fold F1 0.850+-0.023
+DONE seed44_111 anger

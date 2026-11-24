@@ -1,0 +1,132 @@
+=== loss_focal_only device=cuda {"tag": "loss_focal_only", "disorders": ["anger", "anxiety", "depression", "npd", "panic"], "negatives": "mixed", "ce": 0.0, "focal": 1.0, "dice": 0.0, "focal_alpha": 0.25, "focal_gamma": 2.0, "train_frac": 1.0, "folds": 4, "inner_val": 0.2, "seed": 42, "epochs": 4, "batch_size": 4, "lr": 2e-05, "weight_decay": 0.1, "dropout": 0.3, "warmup_steps": 24, "max_length": 128, "model_name": "distilbert-base-uncased", "bootstrap": 2000, "shap": false, "out": "C:\\Users\\mish\\AppData\\Local\\Temp\\claude\\C--Code-\\fe38dc1c-271a-43af-b684-ace60bccb427\\scratchpad\\exp\\out"}
+>>> Anger/IED (d1): {"raw": 304, "exact_removed": 7, "conflict_removed": 5, "n": 292, "n_pos": 147, "n_neg": 145, "neg_reddit": 30}
+   fold 1: n_train=175 n_val=44 n_test=73
+      epoch 1: loss=0.0448 (ce 0.692 focal 0.045 dice 0.417)
+      epoch 2: loss=0.0345 (ce 0.623 focal 0.035 dice 0.384)
+      epoch 3: loss=0.0176 (ce 0.437 focal 0.018 dice 0.303)
+      epoch 4: loss=0.0092 (ce 0.328 focal 0.009 dice 0.235)
+   fold 1: tau=0.6619 F1=0.9177 AUC=0.9827 TP=32 FP=2 FN=4 TN=35 [131s]
+   fold 2: n_train=175 n_val=44 n_test=73
+      epoch 1: loss=0.0431 (ce 0.685 focal 0.043 dice 0.409)
+      epoch 2: loss=0.0244 (ce 0.516 focal 0.024 dice 0.334)
+      epoch 3: loss=0.0125 (ce 0.314 focal 0.013 dice 0.239)
+      epoch 4: loss=0.0076 (ce 0.251 focal 0.008 dice 0.186)
+   fold 2: tau=0.7448 F1=0.9589 AUC=0.9805 TP=35 FP=1 FN=2 TN=35 [135s]
+   fold 3: n_train=175 n_val=44 n_test=73
+      epoch 1: loss=0.0435 (ce 0.690 focal 0.043 dice 0.414)
+      epoch 2: loss=0.0280 (ce 0.557 focal 0.028 dice 0.341)
+      epoch 3: loss=0.0104 (ce 0.320 focal 0.010 dice 0.231)
+      epoch 4: loss=0.0069 (ce 0.249 focal 0.007 dice 0.192)
+   fold 3: tau=0.5519 F1=0.9726 AUC=0.9850 TP=37 FP=2 FN=0 TN=34 [134s]
+   fold 4: n_train=175 n_val=44 n_test=73
+      epoch 1: loss=0.0442 (ce 0.693 focal 0.044 dice 0.421)
+      epoch 2: loss=0.0279 (ce 0.560 focal 0.028 dice 0.356)
+      epoch 3: loss=0.0135 (ce 0.356 focal 0.013 dice 0.248)
+      epoch 4: loss=0.0090 (ce 0.287 focal 0.009 dice 0.208)
+   fold 4: tau=0.5434 F1=0.9314 AUC=0.9842 TP=36 FP=4 FN=1 TN=32 [135s]
+<<< Anger/IED (d1): OOF F1=0.9452 [0.918,0.969] AUC=0.9833 TP=140 FP=9 FN=7 TN=136 fold F1 0.945±0.025
+>>> Anxiety (d2): {"raw": 303, "exact_removed": 40, "conflict_removed": 30, "n": 233, "n_pos": 115, "n_neg": 118, "neg_reddit": 30}
+   fold 1: n_train=139 n_val=35 n_test=59
+      epoch 1: loss=0.0444 (ce 0.694 focal 0.044 dice 0.420)
+      epoch 2: loss=0.0394 (ce 0.660 focal 0.039 dice 0.402)
+      epoch 3: loss=0.0311 (ce 0.593 focal 0.031 dice 0.371)
+      epoch 4: loss=0.0258 (ce 0.536 focal 0.026 dice 0.352)
+   fold 1: tau=0.5000 F1=0.7886 AUC=0.9241 TP=29 FP=12 FN=0 TN=18 [87s]
+   fold 2: n_train=140 n_val=35 n_test=58
+      epoch 1: loss=0.0442 (ce 0.697 focal 0.044 dice 0.418)
+      epoch 2: loss=0.0413 (ce 0.670 focal 0.041 dice 0.401)
+      epoch 3: loss=0.0384 (ce 0.646 focal 0.038 dice 0.399)
+      epoch 4: loss=0.0340 (ce 0.613 focal 0.034 dice 0.374)
+   fold 2: tau=0.5403 F1=0.7038 AUC=0.7857 TP=23 FP=12 FN=5 TN=18 [108s]
+   fold 3: n_train=140 n_val=35 n_test=58
+      epoch 1: loss=0.0433 (ce 0.691 focal 0.043 dice 0.411)
+      epoch 2: loss=0.0420 (ce 0.681 focal 0.042 dice 0.415)
+      epoch 3: loss=0.0386 (ce 0.652 focal 0.039 dice 0.411)
+      epoch 4: loss=0.0354 (ce 0.622 focal 0.035 dice 0.391)
+   fold 3: tau=0.5420 F1=0.8961 AUC=0.9679 TP=24 FP=1 FN=5 TN=28 [107s]
+   fold 4: n_train=140 n_val=35 n_test=58
+      epoch 1: loss=0.0450 (ce 0.699 focal 0.045 dice 0.430)
+      epoch 2: loss=0.0396 (ce 0.659 focal 0.040 dice 0.401)
+      epoch 3: loss=0.0362 (ce 0.629 focal 0.036 dice 0.395)
+      epoch 4: loss=0.0343 (ce 0.608 focal 0.034 dice 0.381)
+   fold 4: tau=0.5861 F1=0.8274 AUC=0.8573 TP=25 FP=6 FN=4 TN=23 [110s]
+<<< Anxiety (d2): OOF F1=0.8060 [0.755,0.854] AUC=0.8651 TP=101 FP=31 FN=14 TN=87 fold F1 0.804±0.080
+>>> Depression (d3): {"raw": 413, "exact_removed": 9, "conflict_removed": 8, "n": 396, "n_pos": 199, "n_neg": 197, "neg_reddit": 41}
+   fold 1: n_train=237 n_val=60 n_test=99
+      epoch 1: loss=0.0443 (ce 0.695 focal 0.044 dice 0.410)
+      epoch 2: loss=0.0359 (ce 0.629 focal 0.036 dice 0.386)
+      epoch 3: loss=0.0235 (ce 0.502 focal 0.023 dice 0.324)
+      epoch 4: loss=0.0164 (ce 0.408 focal 0.016 dice 0.268)
+   fold 1: tau=0.7817 F1=0.7714 AUC=0.9224 TP=30 FP=3 FN=19 TN=47 [151s]
+   fold 2: n_train=237 n_val=60 n_test=99
+      epoch 1: loss=0.0427 (ce 0.686 focal 0.043 dice 0.409)
+      epoch 2: loss=0.0381 (ce 0.643 focal 0.038 dice 0.393)
+      epoch 3: loss=0.0261 (ce 0.521 focal 0.026 dice 0.333)
+      epoch 4: loss=0.0175 (ce 0.430 focal 0.018 dice 0.285)
+   fold 2: tau=0.6172 F1=0.8484 AUC=0.9298 TP=41 FP=6 FN=9 TN=43 [180s]
+   fold 3: n_train=237 n_val=60 n_test=99
+      epoch 1: loss=0.0431 (ce 0.688 focal 0.043 dice 0.417)
+      epoch 2: loss=0.0365 (ce 0.627 focal 0.037 dice 0.385)
+      epoch 3: loss=0.0239 (ce 0.492 focal 0.024 dice 0.316)
+      epoch 4: loss=0.0164 (ce 0.389 focal 0.016 dice 0.269)
+   fold 3: tau=0.6603 F1=0.8476 AUC=0.9335 TP=46 FP=11 FN=4 TN=38 [180s]
+   fold 4: n_train=237 n_val=60 n_test=99
+      epoch 1: loss=0.0433 (ce 0.688 focal 0.043 dice 0.410)
+      epoch 2: loss=0.0366 (ce 0.632 focal 0.037 dice 0.391)
+      epoch 3: loss=0.0263 (ce 0.533 focal 0.026 dice 0.340)
+      epoch 4: loss=0.0188 (ce 0.441 focal 0.019 dice 0.299)
+   fold 4: tau=0.6120 F1=0.8586 AUC=0.9400 TP=42 FP=6 FN=8 TN=43 [180s]
+<<< Depression (d3): OOF F1=0.8332 [0.795,0.871] AUC=0.9207 TP=159 FP=26 FN=40 TN=171 fold F1 0.831±0.040
+>>> NPD (d4): {"raw": 313, "exact_removed": 4, "conflict_removed": 0, "n": 309, "n_pos": 156, "n_neg": 153, "neg_reddit": 31}
+   fold 1: n_train=184 n_val=47 n_test=78
+      epoch 1: loss=0.0419 (ce 0.676 focal 0.042 dice 0.405)
+      epoch 2: loss=0.0206 (ce 0.463 focal 0.021 dice 0.297)
+      epoch 3: loss=0.0056 (ce 0.254 focal 0.006 dice 0.187)
+      epoch 4: loss=0.0026 (ce 0.195 focal 0.003 dice 0.156)
+   fold 1: tau=0.7460 F1=0.9095 AUC=0.9888 TP=32 FP=0 FN=7 TN=39 [130s]
+   fold 2: n_train=185 n_val=47 n_test=77
+      epoch 1: loss=0.0401 (ce 0.662 focal 0.040 dice 0.398)
+      epoch 2: loss=0.0175 (ce 0.419 focal 0.018 dice 0.294)
+      epoch 3: loss=0.0065 (ce 0.262 focal 0.007 dice 0.210)
+      epoch 4: loss=0.0028 (ce 0.190 focal 0.003 dice 0.149)
+   fold 2: tau=0.3879 F1=0.9480 AUC=0.9973 TP=36 FP=1 FN=3 TN=37 [142s]
+   fold 3: n_train=185 n_val=47 n_test=77
+      epoch 1: loss=0.0409 (ce 0.672 focal 0.041 dice 0.399)
+      epoch 2: loss=0.0195 (ce 0.452 focal 0.019 dice 0.316)
+      epoch 3: loss=0.0074 (ce 0.278 focal 0.007 dice 0.205)
+      epoch 4: loss=0.0025 (ce 0.196 focal 0.002 dice 0.157)
+   fold 3: tau=0.6675 F1=0.9740 AUC=1.0000 TP=37 FP=0 FN=2 TN=38 [142s]
+   fold 4: n_train=185 n_val=47 n_test=77
+      epoch 1: loss=0.0404 (ce 0.659 focal 0.040 dice 0.407)
+      epoch 2: loss=0.0206 (ce 0.461 focal 0.021 dice 0.304)
+      epoch 3: loss=0.0057 (ce 0.266 focal 0.006 dice 0.214)
+      epoch 4: loss=0.0026 (ce 0.199 focal 0.003 dice 0.160)
+   fold 4: tau=0.3332 F1=0.9740 AUC=0.9993 TP=39 FP=2 FN=0 TN=36 [141s]
+<<< NPD (d4): OOF F1=0.9514 [0.926,0.974] AUC=0.9966 TP=144 FP=3 FN=12 TN=150 fold F1 0.951±0.030
+>>> Panic (d5): {"raw": 222, "exact_removed": 1, "conflict_removed": 0, "n": 221, "n_pos": 112, "n_neg": 109, "neg_reddit": 22}
+   fold 1: n_train=132 n_val=33 n_test=56
+      epoch 1: loss=0.0436 (ce 0.687 focal 0.044 dice 0.410)
+      epoch 2: loss=0.0307 (ce 0.568 focal 0.031 dice 0.343)
+      epoch 3: loss=0.0182 (ce 0.439 focal 0.018 dice 0.294)
+      epoch 4: loss=0.0125 (ce 0.356 focal 0.012 dice 0.241)
+   fold 1: tau=0.6769 F1=0.9642 AUC=1.0000 TP=26 FP=0 FN=2 TN=28 [102s]
+   fold 2: n_train=132 n_val=34 n_test=55
+      epoch 1: loss=0.0430 (ce 0.688 focal 0.043 dice 0.414)
+      epoch 2: loss=0.0380 (ce 0.640 focal 0.038 dice 0.385)
+      epoch 3: loss=0.0245 (ce 0.524 focal 0.025 dice 0.337)
+      epoch 4: loss=0.0167 (ce 0.423 focal 0.017 dice 0.279)
+   fold 2: tau=0.7244 F1=0.8175 AUC=0.9511 TP=21 FP=3 FN=7 TN=24 [103s]
+   fold 3: n_train=132 n_val=34 n_test=55
+      epoch 1: loss=0.0413 (ce 0.675 focal 0.041 dice 0.404)
+      epoch 2: loss=0.0328 (ce 0.596 focal 0.033 dice 0.363)
+      epoch 3: loss=0.0188 (ce 0.440 focal 0.019 dice 0.299)
+      epoch 4: loss=0.0122 (ce 0.338 focal 0.012 dice 0.232)
+   fold 3: tau=0.7897 F1=0.8353 AUC=0.9577 TP=21 FP=2 FN=7 TN=25 [103s]
+   fold 4: n_train=132 n_val=34 n_test=55
+      epoch 1: loss=0.0452 (ce 0.699 focal 0.045 dice 0.422)
+      epoch 2: loss=0.0344 (ce 0.617 focal 0.034 dice 0.373)
+      epoch 3: loss=0.0221 (ce 0.495 focal 0.022 dice 0.327)
+      epoch 4: loss=0.0148 (ce 0.397 focal 0.015 dice 0.278)
+   fold 4: tau=0.6823 F1=0.9455 AUC=0.9828 TP=26 FP=1 FN=2 TN=26 [101s]
+<<< Panic (d5): OOF F1=0.8912 [0.850,0.932] AUC=0.9599 TP=94 FP=6 FN=18 TN=103 fold F1 0.891±0.075
+DONE loss_focal_only

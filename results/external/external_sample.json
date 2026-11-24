@@ -1,0 +1,17 @@
+{
+ "candidates": 2400,
+ "exact_overlap": 0,
+ "near_dup_ge_0_9": 0,
+ "max_similarity": 0.6773295737100312,
+ "posts_available": {
+  "anxiety": 8586,
+  "depression": 24533,
+  "teaching": 549,
+  "divorce": 1225,
+  "guns": 3188,
+  "fitness": 3487
+ },
+ "n_anxiety": 400,
+ "n_depression": 400,
+ "n_control": 400
+}

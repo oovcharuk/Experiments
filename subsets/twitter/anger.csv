@@ -1,0 +1,305 @@
+row_id,text,text_normalized,y,src
+0,I'm faking a smile just to get through the day.,i'm faking a smile just to get through the day.,0,twitter:Depression
+1,I'm crying without even knowing why.,i'm crying without even knowing why.,0,twitter:Depression
+2,I'm tired of the guilt that follows my anger outbursts.,i'm tired of the guilt that follows my anger outbursts.,1,twitter:Anger/ Intermittent Explosive Disorder
+3,I'm afraid of losing touch with reality completely.,i'm afraid of losing touch with reality completely.,0,twitter:Panic Disorder
+4,"Even when I don't want to react strongly, my emotions can surge unexpectedly.","even when i don't want to react strongly, my emotions can surge unexpectedly.",1,twitter:Anger/ Intermittent Explosive Disorder
+5,"Even when I want to stay calm, my emotions can flare up unexpectedly.","even when i want to stay calm, my emotions can flare up unexpectedly.",1,twitter:Anger/ Intermittent Explosive Disorder
+6,I wish I could communicate my frustrations without getting so angry.,i wish i could communicate my frustrations without getting so angry.,1,twitter:Anger/ Intermittent Explosive Disorder
+7,"The weight of emotions can be overwhelming, even when they're unspoken.","the weight of emotions can be overwhelming, even when they're unspoken.",0,twitter:Depression
+8,I can't escape these negative thoughts.,i can't escape these negative thoughts.,0,twitter:Depression
+9,Feeling like I'm constantly trying to keep emotions in check.,feeling like i'm constantly trying to keep emotions in check.,1,twitter:Anger/ Intermittent Explosive Disorder
+10,I wish I could manage my anger better.,i wish i could manage my anger better.,1,twitter:Anger/ Intermittent Explosive Disorder
+11,My anger feels like an overpowering force that I can't resist.,my anger feels like an overpowering force that i can't resist.,1,twitter:Anger/ Intermittent Explosive Disorder
+12,It's hard to explain the surge of powerful emotions that sometimes take over.,it's hard to explain the surge of powerful emotions that sometimes take over.,1,twitter:Anger/ Intermittent Explosive Disorder
+13,It's hard when my mind feels like a prison I can't escape.,it's hard when my mind feels like a prison i can't escape.,0,twitter:Depression
+14,Trying to find ways to diffuse emotional tension before it escalates.,trying to find ways to diffuse emotional tension before it escalates.,1,twitter:Anger/ Intermittent Explosive Disorder
+15,The pressure to keep emotions in check can be exhausting.,the pressure to keep emotions in check can be exhausting.,1,twitter:Anger/ Intermittent Explosive Disorder
+16,I feel like my anger is a wall that keeps people at a distance.,i feel like my anger is a wall that keeps people at a distance.,1,twitter:Anger/ Intermittent Explosive Disorder
+17,Feeling like I'm trying to navigate through a world of uncertainty and doubt.,feeling like i'm trying to navigate through a world of uncertainty and doubt.,0,twitter:Anxiety Disorder
+18,I'm avoiding situations that might lead to a panic episode.,i'm avoiding situations that might lead to a panic episode.,0,twitter:Panic Disorder
+19,I feel like I'm constantly battling with my own rage.,i feel like i'm constantly battling with my own rage.,1,twitter:Anger/ Intermittent Explosive Disorder
+20,I'm trembling and shaking uncontrollably.,i'm trembling and shaking uncontrollably.,0,twitter:Panic Disorder
+21,"Feeling like I stand out in a crowd, drawing everyone's attention.","feeling like i stand out in a crowd, drawing everyone's attention.",0,twitter:Narcissistic Disorder
+22,"My thoughts can become a maze of fear, with no clear way out.","my thoughts can become a maze of fear, with no clear way out.",0,twitter:Panic Disorder
+23,Trying to maintain control when emotions threaten to consume me.,trying to maintain control when emotions threaten to consume me.,1,twitter:Anger/ Intermittent Explosive Disorder
+24,The internal battle can be like a seesaw of emotions tipping one way or another.,the internal battle can be like a seesaw of emotions tipping one way or another.,1,twitter:Anger/ Intermittent Explosive Disorder
+25,I'm avoiding situations that challenge my need for control.,i'm avoiding situations that challenge my need for control.,0,twitter:Anxiety Disorder
+26,"Feeling like I'm constantly on guard, waiting for something to happen.","feeling like i'm constantly on guard, waiting for something to happen.",0,twitter:Panic Disorder
+27,My anger is like a beast that I can't control.,my anger is like a beast that i can't control.,1,twitter:Anger/ Intermittent Explosive Disorder
+28,"Feeling like I'm standing on the edge of a precipice, afraid to move.","feeling like i'm standing on the edge of a precipice, afraid to move.",0,twitter:Panic Disorder
+29,Trying to maintain my equilibrium when emotions run high.,trying to maintain my equilibrium when emotions run high.,1,twitter:Anger/ Intermittent Explosive Disorder
+30,I'm tired of feeling like a prisoner to my own rage.,i'm tired of feeling like a prisoner to my own rage.,1,twitter:Anger/ Intermittent Explosive Disorder
+31,"I often put myself first, even if it inconveniences others.","i often put myself first, even if it inconveniences others.",0,twitter:Narcissistic Disorder
+32,I'm worried that my anxiety is holding me back from living my life.,i'm worried that my anxiety is holding me back from living my life.,0,twitter:Anxiety Disorder
+33,It's hard to describe the feeling of being caught in an emotional whirlpool.,it's hard to describe the feeling of being caught in an emotional whirlpool.,1,twitter:Anger/ Intermittent Explosive Disorder
+34,I wish I could find a way to communicate without resorting to anger.,i wish i could find a way to communicate without resorting to anger.,1,twitter:Anger/ Intermittent Explosive Disorder
+35,"Feeling like I'm exceptional, with the power to inspire those around me.","feeling like i'm exceptional, with the power to inspire those around me.",0,twitter:Narcissistic Disorder
+36,The struggle is to find healthy outlets for intense emotional energy.,the struggle is to find healthy outlets for intense emotional energy.,1,twitter:Anger/ Intermittent Explosive Disorder
+37,It's like I'm carrying a weight of emotions that's hard to put down.,it's like i'm carrying a weight of emotions that's hard to put down.,1,twitter:Anger/ Intermittent Explosive Disorder
+38,I'm tired of losing my temper and hurting others.,i'm tired of losing my temper and hurting others.,1,twitter:Anger/ Intermittent Explosive Disorder
+39,Feeling like I'm in a constant battle to control the intensity of my feelings.,feeling like i'm in a constant battle to control the intensity of my feelings.,1,twitter:Anger/ Intermittent Explosive Disorder
+40,Trying to navigate a world where frustrations can get the best of me.,trying to navigate a world where frustrations can get the best of me.,1,twitter:Anger/ Intermittent Explosive Disorder
+41,I'm worried that my anger will damage my reputation.,i'm worried that my anger will damage my reputation.,1,twitter:Anger/ Intermittent Explosive Disorder
+42,I feel like I'm on the verge of a panic attack all the time.,i feel like i'm on the verge of a panic attack all the time.,0,twitter:Anxiety Disorder
+43,Feeling like I'm in a constant dance with my own intense feelings.,feeling like i'm in a constant dance with my own intense feelings.,1,twitter:Anger/ Intermittent Explosive Disorder
+44,I wish I had better control over my reactions when I'm angry.,i wish i had better control over my reactions when i'm angry.,1,twitter:Anger/ Intermittent Explosive Disorder
+45,I believe I deserve admiration simply for being me.,i believe i deserve admiration simply for being me.,0,twitter:Narcissistic Disorder
+46,"Even in moments of uncertainty, I know my potential is limitless.","even in moments of uncertainty, i know my potential is limitless.",0,twitter:Narcissistic Disorder
+47,"I'm constantly irritable, and it's affecting my well-being.","i'm constantly irritable, and it's affecting my well-being.",1,twitter:Anger/ Intermittent Explosive Disorder
+48,I deserve special treatment because I'm exceptional.,i deserve special treatment because i'm exceptional.,0,twitter:Narcissistic Disorder
+49,I'm terrified of being alone during a panic episode.,i'm terrified of being alone during a panic episode.,0,twitter:Panic Disorder
+50,"Even in the quiet moments, my heart races as if I'm in danger.","even in the quiet moments, my heart races as if i'm in danger.",0,twitter:Panic Disorder
+51,Trying to find a way to slow down the racing thoughts in my head.,trying to find a way to slow down the racing thoughts in my head.,0,twitter:Panic Disorder
+52,"Feeling like I'm juggling my emotions, trying not to let them take over.","feeling like i'm juggling my emotions, trying not to let them take over.",1,twitter:Anger/ Intermittent Explosive Disorder
+53,I'm struggling to find ways to cope with the intensity of my anger.,i'm struggling to find ways to cope with the intensity of my anger.,1,twitter:Anger/ Intermittent Explosive Disorder
+54,"I'm better than most people, and I want them to acknowledge it.","i'm better than most people, and i want them to acknowledge it.",0,twitter:Narcissistic Disorder
+55,I'm terrified of the unpredictability of panic.,i'm terrified of the unpredictability of panic.,0,twitter:Panic Disorder
+56,I feel like my mind is a never-ending storm of worry.,i feel like my mind is a never-ending storm of worry.,0,twitter:Anxiety Disorder
+57,I'm afraid of the rage I feel building up inside me.,i'm afraid of the rage i feel building up inside me.,1,twitter:Anger/ Intermittent Explosive Disorder
+58,I need to be the best in any group I'm a part of.,i need to be the best in any group i'm a part of.,0,twitter:Narcissistic Disorder
+59,Trying to find a way to silence the critical voice in my head.,trying to find a way to silence the critical voice in my head.,0,twitter:Anxiety Disorder
+60,I'm living in a fog of numbness.,i'm living in a fog of numbness.,0,twitter:Depression
+61,I expect others to admire my taste and choices.,i expect others to admire my taste and choices.,0,twitter:Narcissistic Disorder
+62,I'm always questioning whether I'm good enough.,i'm always questioning whether i'm good enough.,0,twitter:Anxiety Disorder
+63,"Feeling like I'm constantly on alert, ready for whatever might go wrong.","feeling like i'm constantly on alert, ready for whatever might go wrong.",0,twitter:Anxiety Disorder
+64,I'm tired of the regrets that follow my anger outbursts.,i'm tired of the regrets that follow my anger outbursts.,1,twitter:Anger/ Intermittent Explosive Disorder
+65,I can't escape the feeling of being trapped.,i can't escape the feeling of being trapped.,0,twitter:Depression
+66,Trying to navigate relationships when emotions can be overwhelming.,trying to navigate relationships when emotions can be overwhelming.,1,twitter:Anger/ Intermittent Explosive Disorder
+67,The challenge is finding constructive ways to express emotions without causing harm.,the challenge is finding constructive ways to express emotions without causing harm.,1,twitter:Anger/ Intermittent Explosive Disorder
+68,I'm afraid that my anger will lead me to lose important relationships.,i'm afraid that my anger will lead me to lose important relationships.,1,twitter:Anger/ Intermittent Explosive Disorder
+69,I'm not good enough for anything.,i'm not good enough for anything.,0,twitter:Depression
+70,I'm worried that my anger is impacting my physical health.,i'm worried that my anger is impacting my physical health.,1,twitter:Anger/ Intermittent Explosive Disorder
+71,"It's like there's a thunderstorm inside me, waiting to break free.","it's like there's a thunderstorm inside me, waiting to break free.",1,twitter:Anger/ Intermittent Explosive Disorder
+72,"There are times when my mind is a storm, making it hard to focus.","there are times when my mind is a storm, making it hard to focus.",0,twitter:Panic Disorder
+73,I feel like my anger is ruining my relationships.,i feel like my anger is ruining my relationships.,1,twitter:Anger/ Intermittent Explosive Disorder
+74,Feeling like my innate charisma can light up any room.,feeling like my innate charisma can light up any room.,0,twitter:Narcissistic Disorder
+75,"Even in moments of calm, I can feel a storm brewing inside me.","even in moments of calm, i can feel a storm brewing inside me.",1,twitter:Anger/ Intermittent Explosive Disorder
+76,"Some days, emotions can feel like a wildfire I struggle to contain.","some days, emotions can feel like a wildfire i struggle to contain.",1,twitter:Anger/ Intermittent Explosive Disorder
+77,I feel like I'm being consumed by an overwhelming darkness.,i feel like i'm being consumed by an overwhelming darkness.,0,twitter:Panic Disorder
+78,"Feeling like I'm constantly scanning for signs of trouble, even when there's none.","feeling like i'm constantly scanning for signs of trouble, even when there's none.",0,twitter:Anxiety Disorder
+79,It's like I'm caught in a loop of 'what-ifs' and worst-case scenarios.,it's like i'm caught in a loop of 'what-ifs' and worst-case scenarios.,0,twitter:Anxiety Disorder
+80,"Some days, my emotions feel like a storm that's hard to control.","some days, my emotions feel like a storm that's hard to control.",0,twitter:Depression
+81,I feel like I'm caught in a cycle of panic that won't end.,i feel like i'm caught in a cycle of panic that won't end.,0,twitter:Panic Disorder
+82,I'm tired of the chaos and turmoil my anger creates.,i'm tired of the chaos and turmoil my anger creates.,1,twitter:Anger/ Intermittent Explosive Disorder
+83,The pressure of keeping emotions in check can sometimes be overwhelming.,the pressure of keeping emotions in check can sometimes be overwhelming.,1,twitter:Anger/ Intermittent Explosive Disorder
+84,I'm afraid that my anger is damaging my reputation.,i'm afraid that my anger is damaging my reputation.,1,twitter:Anger/ Intermittent Explosive Disorder
+85,I wish I could find the words to explain what's going on inside me.,i wish i could find the words to explain what's going on inside me.,0,twitter:Depression
+86,The challenge is finding constructive ways to cope with intense feelings.,the challenge is finding constructive ways to cope with intense feelings.,1,twitter:Anger/ Intermittent Explosive Disorder
+87,"It's like there's a storm inside me, and I'm trying to find calm.","it's like there's a storm inside me, and i'm trying to find calm.",1,twitter:Anger/ Intermittent Explosive Disorder
+88,Trying to find ways to manage emotions without them managing me.,trying to find ways to manage emotions without them managing me.,1,twitter:Anger/ Intermittent Explosive Disorder
+89,I'm afraid that my anger will escalate to a dangerous level.,i'm afraid that my anger will escalate to a dangerous level.,1,twitter:Anger/ Intermittent Explosive Disorder
+90,"Trying to catch my breath, even when I'm not physically running.","trying to catch my breath, even when i'm not physically running.",0,twitter:Panic Disorder
+91,It's hard to explain the frustration of not always having emotional control.,it's hard to explain the frustration of not always having emotional control.,1,twitter:Anger/ Intermittent Explosive Disorder
+92,My anger is like a storm that takes over my emotions.,my anger is like a storm that takes over my emotions.,1,twitter:Anger/ Intermittent Explosive Disorder
+93,It's like I'm trying to navigate through a maze of strong emotions.,it's like i'm trying to navigate through a maze of strong emotions.,1,twitter:Anger/ Intermittent Explosive Disorder
+94,I feel like my anger is a barrier to intimacy and connection.,i feel like my anger is a barrier to intimacy and connection.,1,twitter:Anger/ Intermittent Explosive Disorder
+95,I feel like I'm a disappointment to everyone.,i feel like i'm a disappointment to everyone.,0,twitter:Depression
+96,I'm struggling to sleep because my mind won't stop racing.,i'm struggling to sleep because my mind won't stop racing.,0,twitter:Anxiety Disorder
+97,I'm tired of feeling so out of control when I get angry.,i'm tired of feeling so out of control when i get angry.,1,twitter:Anger/ Intermittent Explosive Disorder
+98,My anger feels like an anchor that's weighing me down.,my anger feels like an anchor that's weighing me down.,1,twitter:Anger/ Intermittent Explosive Disorder
+99,The tension in my body can feel like I'm carrying an invisible weight.,the tension in my body can feel like i'm carrying an invisible weight.,0,twitter:Panic Disorder
+100,"I can't control my temper, and it scares me.","i can't control my temper, and it scares me.",1,twitter:Anger/ Intermittent Explosive Disorder
+101,I'm struggling to find healthy ways to express my frustration.,i'm struggling to find healthy ways to express my frustration.,1,twitter:Anger/ Intermittent Explosive Disorder
+102,I feel like my anger is holding me back from reaching my potential.,i feel like my anger is holding me back from reaching my potential.,1,twitter:Anger/ Intermittent Explosive Disorder
+103,Feeling like I'm moving in slow motion while life rushes by.,feeling like i'm moving in slow motion while life rushes by.,0,twitter:Depression
+104,"Even in a room full of people, I know I'm the most captivating.","even in a room full of people, i know i'm the most captivating.",0,twitter:Narcissistic Disorder
+105,Trying to find ways to cope with intense feelings without hurting myself or others.,trying to find ways to cope with intense feelings without hurting myself or others.,1,twitter:Anger/ Intermittent Explosive Disorder
+106,"Even in moments of peace, emotions can bubble beneath the surface.","even in moments of peace, emotions can bubble beneath the surface.",1,twitter:Anger/ Intermittent Explosive Disorder
+107,My anger is like a fire that burns inside me.,my anger is like a fire that burns inside me.,1,twitter:Anger/ Intermittent Explosive Disorder
+108,My anger feels like a poison that spreads through me.,my anger feels like a poison that spreads through me.,1,twitter:Anger/ Intermittent Explosive Disorder
+109,"Some days, it's hard to imagine a future where things feel better.","some days, it's hard to imagine a future where things feel better.",0,twitter:Depression
+110,"Even on good days, there's a lingering feeling of emptiness.","even on good days, there's a lingering feeling of emptiness.",0,twitter:Depression
+111,"Even when there's no immediate danger, the fear can still consume me.","even when there's no immediate danger, the fear can still consume me.",0,twitter:Panic Disorder
+112,"Even in the face of challenges, I know I have what it takes.","even in the face of challenges, i know i have what it takes.",0,twitter:Narcissistic Disorder
+113,The challenge is to defuse intense emotions before they escalate further.,the challenge is to defuse intense emotions before they escalate further.,1,twitter:Anger/ Intermittent Explosive Disorder
+114,It's tough when even the simplest tasks become overwhelming.,it's tough when even the simplest tasks become overwhelming.,0,twitter:Depression
+115,Trying to maintain composure when emotions threaten to overpower me.,trying to maintain composure when emotions threaten to overpower me.,1,twitter:Anger/ Intermittent Explosive Disorder
+116,"Even in moments of silence, emotions can be a tumultuous sea inside me.","even in moments of silence, emotions can be a tumultuous sea inside me.",1,twitter:Anger/ Intermittent Explosive Disorder
+117,Trying to navigate life with the knowledge that I'm exceptional.,trying to navigate life with the knowledge that i'm exceptional.,0,twitter:Narcissistic Disorder
+118,I'm constantly battling with the rage that simmers within me.,i'm constantly battling with the rage that simmers within me.,1,twitter:Anger/ Intermittent Explosive Disorder
+119,"Some moments, it feels like the world is crashing down around me.","some moments, it feels like the world is crashing down around me.",0,twitter:Panic Disorder
+120,"The fear of making a mistake can be paralyzing, leaving me frozen in place.","the fear of making a mistake can be paralyzing, leaving me frozen in place.",0,twitter:Anxiety Disorder
+121,There are moments when my body feels like it's in a state of emergency.,there are moments when my body feels like it's in a state of emergency.,0,twitter:Panic Disorder
+122,"Feeling like I'm suffocating, even when there's enough air to breathe.","feeling like i'm suffocating, even when there's enough air to breathe.",0,twitter:Panic Disorder
+123,It's like I'm a masterpiece that everyone should admire.,it's like i'm a masterpiece that everyone should admire.,0,twitter:Narcissistic Disorder
+124,The internal conflict can be like a tug-of-war between calm and turmoil.,the internal conflict can be like a tug-of-war between calm and turmoil.,1,twitter:Anger/ Intermittent Explosive Disorder
+125,Trying to navigate life with an understanding of my own strengths.,trying to navigate life with an understanding of my own strengths.,0,twitter:Narcissistic Disorder
+126,I feel like I'm alienating those around me with my anger.,i feel like i'm alienating those around me with my anger.,1,twitter:Anger/ Intermittent Explosive Disorder
+127,Trying to find the strength to face each day with a hopeful outlook.,trying to find the strength to face each day with a hopeful outlook.,0,twitter:Depression
+128,I'm terrified that I'm going to die.,i'm terrified that i'm going to die.,0,twitter:Panic Disorder
+129,"Even in a crowd, I can feel alone, isolated by my own thoughts.","even in a crowd, i can feel alone, isolated by my own thoughts.",0,twitter:Depression
+130,I'm feeling like my body and mind are betraying me.,i'm feeling like my body and mind are betraying me.,0,twitter:Panic Disorder
+131,"Even in moments of stillness, my emotions can be a tumultuous sea.","even in moments of stillness, my emotions can be a tumultuous sea.",1,twitter:Anger/ Intermittent Explosive Disorder
+132,I feel like my anger is taking over my life.,i feel like my anger is taking over my life.,1,twitter:Anger/ Intermittent Explosive Disorder
+133,I'm always preparing for the worst-case scenario.,i'm always preparing for the worst-case scenario.,0,twitter:Anxiety Disorder
+134,I deserve the best of everything because I'm superior.,i deserve the best of everything because i'm superior.,0,twitter:Narcissistic Disorder
+135,The hardest person to be honest with is often myself.,the hardest person to be honest with is often myself.,0,twitter:Depression
+136,It's like I'm trying to navigate through a maze of strong emotional reactions.,it's like i'm trying to navigate through a maze of strong emotional reactions.,1,twitter:Anger/ Intermittent Explosive Disorder
+137,I'm convinced that things will never improve.,i'm convinced that things will never improve.,0,twitter:Depression
+138,Trying to navigate social situations when emotions can run high.,trying to navigate social situations when emotions can run high.,1,twitter:Anger/ Intermittent Explosive Disorder
+139,The drive for success can sometimes be all-consuming.,the drive for success can sometimes be all-consuming.,0,twitter:Narcissistic Disorder
+140,I'm uncomfortable when others challenge my authority or knowledge.,i'm uncomfortable when others challenge my authority or knowledge.,0,twitter:Narcissistic Disorder
+141,I believe I'm entitled to the best treatment in any situation.,i believe i'm entitled to the best treatment in any situation.,0,twitter:Narcissistic Disorder
+142,I just want this pain to end.,i just want this pain to end.,0,twitter:Depression
+143,It's hard to explain the constant battle happening inside my mind.,it's hard to explain the constant battle happening inside my mind.,0,twitter:Depression
+144,I'm worried that my anger is driving people away from me.,i'm worried that my anger is driving people away from me.,1,twitter:Anger/ Intermittent Explosive Disorder
+145,Feeling like I'm constantly walking a tightrope of emotional restraint.,feeling like i'm constantly walking a tightrope of emotional restraint.,1,twitter:Anger/ Intermittent Explosive Disorder
+146,"I want to change, but my anger seems uncontrollable.","i want to change, but my anger seems uncontrollable.",1,twitter:Anger/ Intermittent Explosive Disorder
+147,"Some days, it's like I'm just going through the motions, not really living.","some days, it's like i'm just going through the motions, not really living.",0,twitter:Depression
+148,Even small triggers can set off a chain reaction of intense feelings.,even small triggers can set off a chain reaction of intense feelings.,1,twitter:Anger/ Intermittent Explosive Disorder
+149,There are times when my mind feels like a storm I can't escape.,there are times when my mind feels like a storm i can't escape.,0,twitter:Panic Disorder
+150,I'm avoiding triggers even if they're things I used to enjoy.,i'm avoiding triggers even if they're things i used to enjoy.,0,twitter:Panic Disorder
+151,"The struggle is real, and finding healthy ways to manage emotions is essential.","the struggle is real, and finding healthy ways to manage emotions is essential.",1,twitter:Anger/ Intermittent Explosive Disorder
+152,Feeling like I'm constantly on the edge of emotional eruption.,feeling like i'm constantly on the edge of emotional eruption.,1,twitter:Anger/ Intermittent Explosive Disorder
+153,It's like I'm grappling with a whirlwind of emotions that won't subside.,it's like i'm grappling with a whirlwind of emotions that won't subside.,1,twitter:Anger/ Intermittent Explosive Disorder
+154,I'm struggling to find ways to manage my anger without exploding.,i'm struggling to find ways to manage my anger without exploding.,1,twitter:Anger/ Intermittent Explosive Disorder
+155,I'm constantly checking my body for signs of panic.,i'm constantly checking my body for signs of panic.,0,twitter:Panic Disorder
+156,"I'm constantly grappling with my own anger, trying to contain it.","i'm constantly grappling with my own anger, trying to contain it.",1,twitter:Anger/ Intermittent Explosive Disorder
+157,"I'm so tired all the time, no matter how much I sleep.","i'm so tired all the time, no matter how much i sleep.",0,twitter:Depression
+158,"The loneliness can be suffocating, even in a room full of people.","the loneliness can be suffocating, even in a room full of people.",0,twitter:Depression
+159,I'm struggling to find ways to cope when I feel overwhelmed by anger.,i'm struggling to find ways to cope when i feel overwhelmed by anger.,1,twitter:Anger/ Intermittent Explosive Disorder
+160,"Some days, my mind feels like a whirlwind of 'what-ifs' and uncertainties.","some days, my mind feels like a whirlwind of 'what-ifs' and uncertainties.",0,twitter:Anxiety Disorder
+161,Trying to find a way to ground myself when my thoughts are all over the place.,trying to find a way to ground myself when my thoughts are all over the place.,0,twitter:Anxiety Disorder
+162,I'm scared of the consequences of my anger on my life.,i'm scared of the consequences of my anger on my life.,1,twitter:Anger/ Intermittent Explosive Disorder
+163,I'm constantly imagining worst-case scenarios.,i'm constantly imagining worst-case scenarios.,0,twitter:Anxiety Disorder
+164,I'm constantly battling with the urge to lash out.,i'm constantly battling with the urge to lash out.,1,twitter:Anger/ Intermittent Explosive Disorder
+165,Trying to find moments of peace in a sea of restlessness.,trying to find moments of peace in a sea of restlessness.,0,twitter:Anxiety Disorder
+166,Trying to maintain a smile while feeling broken inside is exhausting.,trying to maintain a smile while feeling broken inside is exhausting.,0,twitter:Depression
+167,I'm tired of feeling like a prisoner to my own anger.,i'm tired of feeling like a prisoner to my own anger.,1,twitter:Anger/ Intermittent Explosive Disorder
+168,I feel like my anger is a ticking time bomb.,i feel like my anger is a ticking time bomb.,1,twitter:Anger/ Intermittent Explosive Disorder
+169,I feel like I'm drowning in my own rage.,i feel like i'm drowning in my own rage.,1,twitter:Anger/ Intermittent Explosive Disorder
+170,I'm afraid of the impact of my anger on my children.,i'm afraid of the impact of my anger on my children.,1,twitter:Anger/ Intermittent Explosive Disorder
+171,I can't seem to quiet the constant 'what if' thoughts.,i can't seem to quiet the constant 'what if' thoughts.,0,twitter:Anxiety Disorder
+172,I wish I could find a way to release my anger without hurting others.,i wish i could find a way to release my anger without hurting others.,1,twitter:Anger/ Intermittent Explosive Disorder
+173,"The weight of sadness can be overwhelming, even in a crowded room.","the weight of sadness can be overwhelming, even in a crowded room.",0,twitter:Depression
+174,"Feeling like I'm on edge, as if any moment could set off intense feelings.","feeling like i'm on edge, as if any moment could set off intense feelings.",1,twitter:Anger/ Intermittent Explosive Disorder
+175,My anger feels like a volcano that's about to erupt.,my anger feels like a volcano that's about to erupt.,1,twitter:Anger/ Intermittent Explosive Disorder
+176,"My chest feels tight, and I'm struggling to breathe.","my chest feels tight, and i'm struggling to breathe.",0,twitter:Panic Disorder
+177,Feeling like I'm carrying a weight of concern that's hard to put down.,feeling like i'm carrying a weight of concern that's hard to put down.,0,twitter:Anxiety Disorder
+178,I'm struggling to find ways to calm myself down when I'm angry.,i'm struggling to find ways to calm myself down when i'm angry.,1,twitter:Anger/ Intermittent Explosive Disorder
+179,It's hard to describe the turmoil I feel when emotions surge.,it's hard to describe the turmoil i feel when emotions surge.,1,twitter:Anger/ Intermittent Explosive Disorder
+180,"Feeling like I'm constantly on edge, as if danger is always lurking.","feeling like i'm constantly on edge, as if danger is always lurking.",0,twitter:Anxiety Disorder
+181,The struggle is maintaining emotional balance in the face of triggers.,the struggle is maintaining emotional balance in the face of triggers.,1,twitter:Anger/ Intermittent Explosive Disorder
+182,My anger is like a storm that clouds my judgment.,my anger is like a storm that clouds my judgment.,1,twitter:Anger/ Intermittent Explosive Disorder
+183,It's hard to describe the conviction that I am meant for greatness.,it's hard to describe the conviction that i am meant for greatness.,0,twitter:Narcissistic Disorder
+184,I wish I could find a way to manage my anger before it escalates.,i wish i could find a way to manage my anger before it escalates.,1,twitter:Anger/ Intermittent Explosive Disorder
+185,"The fear of failure can be all-consuming, holding me back from taking risks.","the fear of failure can be all-consuming, holding me back from taking risks.",0,twitter:Anxiety Disorder
+186,Trying to navigate conversations when emotions run high.,trying to navigate conversations when emotions run high.,1,twitter:Anger/ Intermittent Explosive Disorder
+187,I expect others to go out of their way to please me.,i expect others to go out of their way to please me.,0,twitter:Narcissistic Disorder
+188,The pursuit of success is like an ever-burning flame inside me.,the pursuit of success is like an ever-burning flame inside me.,0,twitter:Narcissistic Disorder
+189,Even the smallest triggers can set off a chain reaction inside me.,even the smallest triggers can set off a chain reaction inside me.,1,twitter:Anger/ Intermittent Explosive Disorder
+190,"The overwhelming fear can be paralyzing, holding me back from everything.","the overwhelming fear can be paralyzing, holding me back from everything.",0,twitter:Panic Disorder
+191,I wish I could find a way to defuse my anger before it escalates.,i wish i could find a way to defuse my anger before it escalates.,1,twitter:Anger/ Intermittent Explosive Disorder
+192,"The moments of happiness are fleeting, but the sadness lingers.","the moments of happiness are fleeting, but the sadness lingers.",0,twitter:Depression
+193,I feel like I'm pushing people away with my explosive reactions.,i feel like i'm pushing people away with my explosive reactions.,1,twitter:Anger/ Intermittent Explosive Disorder
+194,Feeling like my emotions are a force that's hard to contain.,feeling like my emotions are a force that's hard to contain.,1,twitter:Anger/ Intermittent Explosive Disorder
+195,I wish I could find a way to release my anger without causing harm.,i wish i could find a way to release my anger without causing harm.,1,twitter:Anger/ Intermittent Explosive Disorder
+196,It's hard to describe the struggle of managing strong emotions.,it's hard to describe the struggle of managing strong emotions.,1,twitter:Anger/ Intermittent Explosive Disorder
+197,Trying to find a way to quiet the storm of panic in my mind.,trying to find a way to quiet the storm of panic in my mind.,0,twitter:Panic Disorder
+198,It's hard to explain the sensation of being caught in a loop of worry.,it's hard to explain the sensation of being caught in a loop of worry.,0,twitter:Anxiety Disorder
+199,"My thoughts can spiral out of control, making everything feel dangerous.","my thoughts can spiral out of control, making everything feel dangerous.",0,twitter:Panic Disorder
+200,I wish I could find healthier ways to cope with my anger.,i wish i could find healthier ways to cope with my anger.,1,twitter:Anger/ Intermittent Explosive Disorder
+201,I often exploit situations to my advantage.,i often exploit situations to my advantage.,0,twitter:Narcissistic Disorder
+202,I'm constantly worried that I'm missing something important.,i'm constantly worried that i'm missing something important.,0,twitter:Anxiety Disorder
+203,I feel entitled to the best of everything because of who I am.,i feel entitled to the best of everything because of who i am.,0,twitter:Narcissistic Disorder
+204,I feel like my anger is sabotaging my happiness.,i feel like my anger is sabotaging my happiness.,1,twitter:Anger/ Intermittent Explosive Disorder
+205,I'm always trying to anticipate and prepare for potential problems.,i'm always trying to anticipate and prepare for potential problems.,0,twitter:Anxiety Disorder
+206,I feel like I'm always on the verge of exploding.,i feel like i'm always on the verge of exploding.,1,twitter:Anger/ Intermittent Explosive Disorder
+207,I wish I could find a way to release my anger without causing damage.,i wish i could find a way to release my anger without causing damage.,1,twitter:Anger/ Intermittent Explosive Disorder
+208,Feeling like my emotional responses can be disproportionate at times.,feeling like my emotional responses can be disproportionate at times.,1,twitter:Anger/ Intermittent Explosive Disorder
+209,Trying to find a way to quiet the inner critic that never seems to rest.,trying to find a way to quiet the inner critic that never seems to rest.,0,twitter:Anxiety Disorder
+210,Getting out of bed can be the most challenging part of the day.,getting out of bed can be the most challenging part of the day.,0,twitter:Depression
+211,Feeling like I'm navigating through a world of uncertainty and doubt.,feeling like i'm navigating through a world of uncertainty and doubt.,0,twitter:Anxiety Disorder
+212,I'm struggling to make plans because I fear an attack.,i'm struggling to make plans because i fear an attack.,0,twitter:Panic Disorder
+213,Feeling like my emotional responses can catch me off guard.,feeling like my emotional responses can catch me off guard.,1,twitter:Anger/ Intermittent Explosive Disorder
+214,I feel like my anger is a barrier to my personal growth.,i feel like my anger is a barrier to my personal growth.,1,twitter:Anger/ Intermittent Explosive Disorder
+215,I'm tired of the guilt and shame that come after my anger subsides.,i'm tired of the guilt and shame that come after my anger subsides.,1,twitter:Anger/ Intermittent Explosive Disorder
+216,I'm concerned that my anger is damaging my self-esteem.,i'm concerned that my anger is damaging my self-esteem.,1,twitter:Anger/ Intermittent Explosive Disorder
+217,I'm convinced that I'm more charming than most people.,i'm convinced that i'm more charming than most people.,0,twitter:Narcissistic Disorder
+218,Trying to balance the intensity of emotions with the desire for harmony.,trying to balance the intensity of emotions with the desire for harmony.,1,twitter:Anger/ Intermittent Explosive Disorder
+219,I'm constantly battling the urge to explode in anger.,i'm constantly battling the urge to explode in anger.,1,twitter:Anger/ Intermittent Explosive Disorder
+220,Trying to lead by example while acknowledging the strengths of others.,trying to lead by example while acknowledging the strengths of others.,0,twitter:Narcissistic Disorder
+221,It's hard to describe the inner struggle of managing powerful emotions.,it's hard to describe the inner struggle of managing powerful emotions.,1,twitter:Anger/ Intermittent Explosive Disorder
+222,I'm worried that my anger is preventing me from living a fulfilling life.,i'm worried that my anger is preventing me from living a fulfilling life.,1,twitter:Anger/ Intermittent Explosive Disorder
+223,Trying to navigate relationships with the awareness of my unique qualities.,trying to navigate relationships with the awareness of my unique qualities.,0,twitter:Narcissistic Disorder
+224,I'm avoiding social situations because it's too hard.,i'm avoiding social situations because it's too hard.,0,twitter:Depression
+225,I'm constantly searching for strategies to manage my anger.,i'm constantly searching for strategies to manage my anger.,1,twitter:Anger/ Intermittent Explosive Disorder
+226,I'm afraid of the damage my anger is causing to myself and others.,i'm afraid of the damage my anger is causing to myself and others.,1,twitter:Anger/ Intermittent Explosive Disorder
+227,I find it hard to acknowledge others' strengths or achievements.,i find it hard to acknowledge others' strengths or achievements.,0,twitter:Narcissistic Disorder
+228,Trying to quiet the chaos in my mind when everything feels overwhelming.,trying to quiet the chaos in my mind when everything feels overwhelming.,0,twitter:Anxiety Disorder
+229,I wish I could explain why I feel sad when everything seems fine.,i wish i could explain why i feel sad when everything seems fine.,0,twitter:Depression
+230,Trying to find ways to cope when emotions surge unexpectedly.,trying to find ways to cope when emotions surge unexpectedly.,1,twitter:Anger/ Intermittent Explosive Disorder
+231,I'm struggling to find a way to calm my racing thoughts.,i'm struggling to find a way to calm my racing thoughts.,0,twitter:Panic Disorder
+232,Trying to find ways to express my feelings without causing harm.,trying to find ways to express my feelings without causing harm.,1,twitter:Anger/ Intermittent Explosive Disorder
+233,My anger feels like a never-ending battle.,my anger feels like a never-ending battle.,1,twitter:Anger/ Intermittent Explosive Disorder
+234,The fear of making a mistake can keep me from even trying.,the fear of making a mistake can keep me from even trying.,0,twitter:Anxiety Disorder
+235,Trying to find a way to navigate a world that feels uncertain and scary.,trying to find a way to navigate a world that feels uncertain and scary.,0,twitter:Anxiety Disorder
+236,It's like I'm trying to steer a ship through choppy emotional waters.,it's like i'm trying to steer a ship through choppy emotional waters.,1,twitter:Anger/ Intermittent Explosive Disorder
+237,"My thoughts are racing, and I can't calm them down.","my thoughts are racing, and i can't calm them down.",0,twitter:Panic Disorder
+238,"Even when the odds seem daunting, I remain steadfast in my determination.","even when the odds seem daunting, i remain steadfast in my determination.",0,twitter:Narcissistic Disorder
+239,"My body can react as if danger is imminent, even in safe situations.","my body can react as if danger is imminent, even in safe situations.",0,twitter:Panic Disorder
+240,I'm consumed by doubt and uncertainty.,i'm consumed by doubt and uncertainty.,0,twitter:Anxiety Disorder
+241,The challenge is finding ways to communicate my emotions without overwhelming others.,the challenge is finding ways to communicate my emotions without overwhelming others.,1,twitter:Anger/ Intermittent Explosive Disorder
+242,Feeling like my emotional state can be unpredictable at times.,feeling like my emotional state can be unpredictable at times.,1,twitter:Anger/ Intermittent Explosive Disorder
+243,I'm worried that my anger is negatively impacting my health.,i'm worried that my anger is negatively impacting my health.,1,twitter:Anger/ Intermittent Explosive Disorder
+244,I often take advantage of situations to boost my image.,i often take advantage of situations to boost my image.,0,twitter:Narcissistic Disorder
+245,I'm struggling to concentrate because of my racing thoughts.,i'm struggling to concentrate because of my racing thoughts.,0,twitter:Anxiety Disorder
+246,I'm focused on being the best at whatever I do.,i'm focused on being the best at whatever i do.,0,twitter:Narcissistic Disorder
+247,I'm constantly comparing myself to others and feeling inadequate.,i'm constantly comparing myself to others and feeling inadequate.,0,twitter:Anxiety Disorder
+248,It's hard to describe the feeling of being trapped within myself.,it's hard to describe the feeling of being trapped within myself.,0,twitter:Depression
+249,"Even when I don't want to react strongly, emotions can overpower me.","even when i don't want to react strongly, emotions can overpower me.",1,twitter:Anger/ Intermittent Explosive Disorder
+250,The challenge is to find stillness in a mind that's always in motion.,the challenge is to find stillness in a mind that's always in motion.,0,twitter:Anxiety Disorder
+251,Feeling like I'm juggling a whirlwind of emotions that threaten to overwhelm.,feeling like i'm juggling a whirlwind of emotions that threaten to overwhelm.,1,twitter:Anger/ Intermittent Explosive Disorder
+252,"The fear of the unknown can be paralyzing, holding me back from taking action.","the fear of the unknown can be paralyzing, holding me back from taking action.",0,twitter:Anxiety Disorder
+253,The pressure to avoid missteps can keep me from taking steps forward.,the pressure to avoid missteps can keep me from taking steps forward.,0,twitter:Anxiety Disorder
+254,I'm driven by the need to outshine everyone around me.,i'm driven by the need to outshine everyone around me.,0,twitter:Narcissistic Disorder
+255,"Even when I want to remain calm, emotions can surge unexpectedly.","even when i want to remain calm, emotions can surge unexpectedly.",1,twitter:Anger/ Intermittent Explosive Disorder
+256,Feeling like I'm grappling with a torrent of intense emotions.,feeling like i'm grappling with a torrent of intense emotions.,1,twitter:Anger/ Intermittent Explosive Disorder
+257,Feeling overwhelmed by intense emotions that bubble to the surface.,feeling overwhelmed by intense emotions that bubble to the surface.,1,twitter:Anger/ Intermittent Explosive Disorder
+258,The challenge is finding ways to handle powerful emotional reactions.,the challenge is finding ways to handle powerful emotional reactions.,1,twitter:Anger/ Intermittent Explosive Disorder
+259,I'm concerned that my anger is hurting my loved ones.,i'm concerned that my anger is hurting my loved ones.,1,twitter:Anger/ Intermittent Explosive Disorder
+260,I wish I could find a way to break free from the grip of anger.,i wish i could find a way to break free from the grip of anger.,1,twitter:Anger/ Intermittent Explosive Disorder
+261,"Even in calm moments, my mind can race with thoughts of potential danger.","even in calm moments, my mind can race with thoughts of potential danger.",0,twitter:Anxiety Disorder
+262,I'm struggling to find healthy outlets for my anger.,i'm struggling to find healthy outlets for my anger.,1,twitter:Anger/ Intermittent Explosive Disorder
+263,Feeling like I'm constantly walking on a tightrope of emotional intensity.,feeling like i'm constantly walking on a tightrope of emotional intensity.,1,twitter:Anger/ Intermittent Explosive Disorder
+264,"It's like my feelings can boil over, even when I don't want them to.","it's like my feelings can boil over, even when i don't want them to.",1,twitter:Anger/ Intermittent Explosive Disorder
+265,I'm paralyzed with fear and can't move.,i'm paralyzed with fear and can't move.,0,twitter:Panic Disorder
+266,"I'm feeling like I'm on the edge of a cliff, about to fall.","i'm feeling like i'm on the edge of a cliff, about to fall.",0,twitter:Panic Disorder
+267,Trying to find outlets for emotional energy that won't cause harm.,trying to find outlets for emotional energy that won't cause harm.,1,twitter:Anger/ Intermittent Explosive Disorder
+268,I'm afraid of the consequences of my anger on my future.,i'm afraid of the consequences of my anger on my future.,1,twitter:Anger/ Intermittent Explosive Disorder
+269,I'm exhausted from battling my own mind.,i'm exhausted from battling my own mind.,0,twitter:Depression
+270,Feeling like I deserve nothing less than the best life has to offer.,feeling like i deserve nothing less than the best life has to offer.,0,twitter:Narcissistic Disorder
+271,The challenge is keeping a lid on the intensity of my feelings.,the challenge is keeping a lid on the intensity of my feelings.,1,twitter:Anger/ Intermittent Explosive Disorder
+272,"Even when challenges arise, I am confident in my ability to overcome.","even when challenges arise, i am confident in my ability to overcome.",0,twitter:Narcissistic Disorder
+273,I'm avoiding situations that might trigger my panic.,i'm avoiding situations that might trigger my panic.,0,twitter:Panic Disorder
+274,The internal battle can feel like a constant tug-of-war between feelings.,the internal battle can feel like a constant tug-of-war between feelings.,1,twitter:Anger/ Intermittent Explosive Disorder
+275,I get so frustrated that I just lash out without thinking.,i get so frustrated that i just lash out without thinking.,1,twitter:Anger/ Intermittent Explosive Disorder
+276,I'm haunted by my negative thoughts.,i'm haunted by my negative thoughts.,0,twitter:Depression
+277,I'm experiencing physical pain that matches my emotional pain.,i'm experiencing physical pain that matches my emotional pain.,0,twitter:Depression
+278,I often compare myself to others to prove my superiority.,i often compare myself to others to prove my superiority.,0,twitter:Narcissistic Disorder
+279,"Sometimes the world feels gray, and finding color seems impossible.","sometimes the world feels gray, and finding color seems impossible.",0,twitter:Depression
+280,I'm avoiding mirrors because I can't stand my own reflection.,i'm avoiding mirrors because i can't stand my own reflection.,0,twitter:Depression
+281,Feeling like my emotions are on a roller coaster I can't control.,feeling like my emotions are on a roller coaster i can't control.,1,twitter:Anger/ Intermittent Explosive Disorder
+282,My anger feels like a heavy weight that I can't shake off.,my anger feels like a heavy weight that i can't shake off.,1,twitter:Anger/ Intermittent Explosive Disorder
+283,I'm worried about embarrassing myself in front of others.,i'm worried about embarrassing myself in front of others.,0,twitter:Panic Disorder
+284,I feel like I'm going to lose control any second.,i feel like i'm going to lose control any second.,0,twitter:Panic Disorder
+285,The challenge is to find ways to channel intense emotions into positive actions.,the challenge is to find ways to channel intense emotions into positive actions.,1,twitter:Anger/ Intermittent Explosive Disorder
+286,I wish I could find the energy to enjoy things like I used to.,i wish i could find the energy to enjoy things like i used to.,0,twitter:Depression
+287,I feel entitled to loyalty and admiration from my friends.,i feel entitled to loyalty and admiration from my friends.,0,twitter:Narcissistic Disorder
+288,It's hard to explain the constant tension that resides within me.,it's hard to explain the constant tension that resides within me.,0,twitter:Anxiety Disorder
+289,I'm struggling to find a way to stop the panic.,i'm struggling to find a way to stop the panic.,0,twitter:Panic Disorder
+290,Feeling like my emotional responses can be like a wild ride.,feeling like my emotional responses can be like a wild ride.,1,twitter:Anger/ Intermittent Explosive Disorder
+291,Trying to navigate conversations when emotions can feel overwhelming.,trying to navigate conversations when emotions can feel overwhelming.,1,twitter:Anger/ Intermittent Explosive Disorder
+292,I wish I could find a way to channel my anger into something positive.,i wish i could find a way to channel my anger into something positive.,1,twitter:Anger/ Intermittent Explosive Disorder
+293,I wish I could find a way to manage my anger without hurting anyone.,i wish i could find a way to manage my anger without hurting anyone.,1,twitter:Anger/ Intermittent Explosive Disorder
+294,The challenge is finding ways to defuse emotions before they escalate.,the challenge is finding ways to defuse emotions before they escalate.,1,twitter:Anger/ Intermittent Explosive Disorder
+295,I feel like I'm trapped in a prison of anxiety.,i feel like i'm trapped in a prison of anxiety.,0,twitter:Anxiety Disorder
+296,I'm worried that my anger is damaging my self-esteem.,i'm worried that my anger is damaging my self-esteem.,1,twitter:Anger/ Intermittent Explosive Disorder
+297,I expect people to validate my feelings and opinions.,i expect people to validate my feelings and opinions.,0,twitter:Narcissistic Disorder
+298,My anger is like a fire that burns me from the inside.,my anger is like a fire that burns me from the inside.,1,twitter:Anger/ Intermittent Explosive Disorder
+299,"I'm feeling physically unwell, but I know it's not just that.","i'm feeling physically unwell, but i know it's not just that.",0,twitter:Depression
+300,Feeling like my emotional reactions can be like a roller coaster ride.,feeling like my emotional reactions can be like a roller coaster ride.,1,twitter:Anger/ Intermittent Explosive Disorder
+301,Feeling like I'm trying to tame a wild animal inside me.,feeling like i'm trying to tame a wild animal inside me.,1,twitter:Anger/ Intermittent Explosive Disorder
+302,Feeling like my presence alone can elevate any situation.,feeling like my presence alone can elevate any situation.,0,twitter:Narcissistic Disorder
+303,Trying to balance the turmoil of emotions with the need for calm.,trying to balance the turmoil of emotions with the need for calm.,1,twitter:Anger/ Intermittent Explosive Disorder

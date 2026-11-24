@@ -1,0 +1,219 @@
+{
+ "top": [
+  {
+   "token": "exceptional",
+   "mean_shap": 0.2500811722595244,
+   "total": 1.250405861297622,
+   "n": 5,
+   "n_pos_texts": 5
+  },
+  {
+   "token": "superior",
+   "mean_shap": 0.24124949021885791,
+   "total": 0.7237484706565738,
+   "n": 3,
+   "n_pos_texts": 3
+  },
+  {
+   "token": "qualities",
+   "mean_shap": 0.22972881793975827,
+   "total": 0.6891864538192748,
+   "n": 3,
+   "n_pos_texts": 3
+  },
+  {
+   "token": "achievements",
+   "mean_shap": 0.22077407055933554,
+   "total": 1.5454184939153488,
+   "n": 7,
+   "n_pos_texts": 7
+  },
+  {
+   "token": "deserve",
+   "mean_shap": 0.19810153581202025,
+   "total": 0.9905076790601013,
+   "n": 5,
+   "n_pos_texts": 5
+  },
+  {
+   "token": "success",
+   "mean_shap": 0.19191777792114476,
+   "total": 2.4949311129748817,
+   "n": 13,
+   "n_pos_texts": 13
+  },
+  {
+   "token": "excellence",
+   "mean_shap": 0.18570712084571517,
+   "total": 0.5571213625371455,
+   "n": 3,
+   "n_pos_texts": 3
+  },
+  {
+   "token": "believe",
+   "mean_shap": 0.18214910477399823,
+   "total": 0.5464473143219947,
+   "n": 3,
+   "n_pos_texts": 3
+  },
+  {
+   "token": "strengths",
+   "mean_shap": 0.1818132870830595,
+   "total": 0.727253148332238,
+   "n": 4,
+   "n_pos_texts": 4
+  },
+  {
+   "token": "others",
+   "mean_shap": 0.17018194427336786,
+   "total": 7.14764165948145,
+   "n": 42,
+   "n_pos_texts": 39
+  },
+  {
+   "token": "knowledge",
+   "mean_shap": 0.16597135799626503,
+   "total": 0.49791407398879506,
+   "n": 3,
+   "n_pos_texts": 3
+  },
+  {
+   "token": "confidence",
+   "mean_shap": 0.15768141499055277,
+   "total": 1.1037699049338694,
+   "n": 7,
+   "n_pos_texts": 7
+  },
+  {
+   "token": "admire",
+   "mean_shap": 0.1513427233323454,
+   "total": 0.7567136166617271,
+   "n": 5,
+   "n_pos_texts": 5
+  },
+  {
+   "token": "entitled",
+   "mean_shap": 0.1347786595837937,
+   "total": 1.2130079362541433,
+   "n": 9,
+   "n_pos_texts": 9
+  },
+  {
+   "token": "unique",
+   "mean_shap": 0.13010170105844734,
+   "total": 0.6505085052922367,
+   "n": 5,
+   "n_pos_texts": 5
+  },
+  {
+   "token": "presence",
+   "mean_shap": 0.12052622090559448,
+   "total": 0.6026311045279724,
+   "n": 5,
+   "n_pos_texts": 5
+  },
+  {
+   "token": "determination",
+   "mean_shap": 0.11912800588955476,
+   "total": 0.3573840176686643,
+   "n": 3,
+   "n_pos_texts": 3
+  },
+  {
+   "token": "acknowledge",
+   "mean_shap": 0.1148929338281353,
+   "total": 0.3446788014844059,
+   "n": 3,
+   "n_pos_texts": 3
+  },
+  {
+   "token": "admiration",
+   "mean_shap": 0.10885594859719275,
+   "total": 0.5442797429859637,
+   "n": 5,
+   "n_pos_texts": 5
+  },
+  {
+   "token": "people",
+   "mean_shap": 0.10439124796117748,
+   "total": 2.400998703107082,
+   "n": 23,
+   "n_pos_texts": 20
+  }
+ ],
+ "neg": [
+  {
+   "token": "worried",
+   "mean_shap": -0.30737947994687903,
+   "total": -0.9221384398406371,
+   "n": 3,
+   "n_pos_texts": 0
+  },
+  {
+   "token": "annoyed",
+   "mean_shap": -0.14017542498186225,
+   "total": -0.560701699927449,
+   "n": 4,
+   "n_pos_texts": 4
+  },
+  {
+   "token": "emotions",
+   "mean_shap": -0.14005689161924895,
+   "total": -1.5406258078117383,
+   "n": 11,
+   "n_pos_texts": 1
+  },
+  {
+   "token": "fear",
+   "mean_shap": -0.1342722605739254,
+   "total": -1.342722605739254,
+   "n": 10,
+   "n_pos_texts": 0
+  },
+  {
+   "token": "panic",
+   "mean_shap": -0.1294056567276129,
+   "total": -0.5176226269104516,
+   "n": 4,
+   "n_pos_texts": 0
+  },
+  {
+   "token": "anger",
+   "mean_shap": -0.1202837821814076,
+   "total": -1.804256732721114,
+   "n": 15,
+   "n_pos_texts": 0
+  },
+  {
+   "token": "anxiety",
+   "mean_shap": -0.11424831036711107,
+   "total": -0.5712415518355554,
+   "n": 5,
+   "n_pos_texts": 0
+  },
+  {
+   "token": "tired",
+   "mean_shap": -0.10544395526327814,
+   "total": -0.3163318657898344,
+   "n": 3,
+   "n_pos_texts": 0
+  },
+  {
+   "token": "avoiding",
+   "mean_shap": -0.09379262732303077,
+   "total": -0.5627557639381846,
+   "n": 6,
+   "n_pos_texts": 0
+  },
+  {
+   "token": "constantly",
+   "mean_shap": -0.09233244344359261,
+   "total": -0.923324434435926,
+   "n": 10,
+   "n_pos_texts": 0
+  }
+ ],
+ "share1": 16.048567213559817,
+ "share5": 36.09427207887554,
+ "share20": 67.03506037722839
+}

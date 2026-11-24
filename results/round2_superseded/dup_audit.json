@@ -1,0 +1,92 @@
+{
+ "anger": {
+  "raw": 304,
+  "exact_dup_removed": 7,
+  "n_dedup": 297,
+  "conflict_texts": 5,
+  "conflict_kept_as": {
+   "non-target": 3,
+   "target": 2
+  },
+  "neg_sources": {
+   "twitter": 118,
+   "reddit": 30
+  },
+  "neg_with_target_label_in_source": 3,
+  "pos_with_other_label_in_source": 29,
+  "near_dup_pairs_ge0_9": 0,
+  "near_dup_pairs_cross_label": 0
+ },
+ "anxiety": {
+  "raw": 303,
+  "exact_dup_removed": 40,
+  "n_dedup": 263,
+  "conflict_texts": 30,
+  "conflict_kept_as": {
+   "target": 17,
+   "non-target": 13
+  },
+  "neg_sources": {
+   "twitter": 101,
+   "reddit": 30
+  },
+  "neg_with_target_label_in_source": 13,
+  "pos_with_other_label_in_source": 0,
+  "near_dup_pairs_ge0_9": 1,
+  "near_dup_pairs_cross_label": 0
+ },
+ "depression": {
+  "raw": 413,
+  "exact_dup_removed": 9,
+  "n_dedup": 404,
+  "conflict_texts": 8,
+  "conflict_kept_as": {
+   "non-target": 4,
+   "target": 4
+  },
+  "neg_sources": {
+   "twitter": 160,
+   "reddit": 41
+  },
+  "neg_with_target_label_in_source": 4,
+  "pos_with_other_label_in_source": 28,
+  "near_dup_pairs_ge0_9": 0,
+  "near_dup_pairs_cross_label": 0
+ },
+ "npd": {
+  "raw": 313,
+  "exact_dup_removed": 4,
+  "n_dedup": 309,
+  "conflict_texts": 0,
+  "conflict_kept_as": {},
+  "neg_sources": {
+   "twitter": 122,
+   "reddit": 31
+  },
+  "neg_with_target_label_in_source": 0,
+  "pos_with_other_label_in_source": 0,
+  "near_dup_pairs_ge0_9": 0,
+  "near_dup_pairs_cross_label": 0
+ },
+ "panic": {
+  "raw": 222,
+  "exact_dup_removed": 1,
+  "n_dedup": 221,
+  "conflict_texts": 0,
+  "conflict_kept_as": {},
+  "neg_sources": {
+   "twitter": 87,
+   "reddit": 22
+  },
+  "neg_with_target_label_in_source": 0,
+  "pos_with_other_label_in_source": 0,
+  "near_dup_pairs_ge0_9": 0,
+  "near_dup_pairs_cross_label": 0
+ },
+ "cross_corpus": {
+  "pairs_ge_0_8": 0,
+  "pairs_ge_0_9": 0,
+  "max_sim": 0.40302937420687046,
+  "exact": 0
+ }
+}
