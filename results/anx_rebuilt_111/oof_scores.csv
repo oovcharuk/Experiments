@@ -1,0 +1,294 @@
+disorder,fold,row_id,y_true,src,score,tau,pred,text
+anxiety,1,1,1,twitter:Anxiety Disorder,0.85248935,0.7395902872085571,1,i'm overwhelmed by the constant 'what ifs'.
+anxiety,1,4,1,twitter:Anxiety Disorder,0.90635514,0.7395902872085571,1,"feeling like i'm constantly scanning for signs of trouble, even when there's none."
+anxiety,1,7,0,twitter:Anger/ Intermittent Explosive Disorder/Depression,0.88939,0.7395902872085571,1,feeling like i'm constantly trying to keep emotions in check.
+anxiety,1,9,1,twitter:Anxiety Disorder,0.83751285,0.7395902872085571,1,i'm consumed by the need to be perfect and avoid mistakes.
+anxiety,1,10,1,twitter:Anxiety Disorder,0.7146676,0.7395902872085571,0,i'm paralyzed by fear and can't make decisions.
+anxiety,1,11,1,twitter:Anxiety Disorder,0.67929935,0.7395902872085571,0,i feel like my anxiety is a never-ending battle.
+anxiety,1,13,1,twitter:Anxiety Disorder,0.8797937,0.7395902872085571,1,trying to find a way to calm the storm of thoughts that never seem to settle.
+anxiety,1,16,0,reddit,0.36839402,0.7395902872085571,0,shedfire mrsshedfire been taking picture of you without your shirt bleeeech
+anxiety,1,19,0,twitter:Anger/ Intermittent Explosive Disorder,0.37566373,0.7395902872085571,0,i wish i could find a way to manage my anger without hurting anyone.
+anxiety,1,21,1,twitter:Anxiety Disorder,0.8924035,0.7395902872085571,1,trying to quiet the chaos in my mind when everything feels overwhelming.
+anxiety,1,22,1,twitter:Anxiety Disorder,0.89003617,0.7395902872085571,1,trying to find a way to calm the storm of uncertainty in my mind.
+anxiety,1,23,0,reddit,0.36198488,0.7395902872085571,0,i miss family guyyy
+anxiety,1,24,0,twitter:Anger/ Intermittent Explosive Disorder,0.60100234,0.7395902872085571,0,i feel like i'm constantly battling with my own rage.
+anxiety,1,34,1,twitter:Anxiety Disorder,0.8149176,0.7395902872085571,1,i feel like my mind is a never-ending storm of worry.
+anxiety,1,35,1,twitter:Anxiety Disorder,0.801979,0.7395902872085571,1,it's hard to explain the sensation of being caught in a loop of worry.
+anxiety,1,45,0,reddit,0.33680502,0.7395902872085571,0,renee okie dokie do you wan na ask ash and tegan and yasmin i asked nicole but she said she cant
+anxiety,1,50,0,twitter:Panic Disorder,0.5325692,0.7395902872085571,0,i feel like i'm being consumed by an overwhelming darkness.
+anxiety,1,51,0,twitter:Anger/ Intermittent Explosive Disorder/Depression,0.8690107,0.7395902872085571,1,trying to navigate conversations when emotions run high.
+anxiety,1,54,0,reddit,0.4248918,0.7395902872085571,0,im having a miley nite no sleeping boo
+anxiety,1,58,0,twitter:Anger/ Intermittent Explosive Disorder/Depression,0.8811592,0.7395902872085571,1,trying to find outlets for emotional energy that won't cause harm.
+anxiety,1,62,1,twitter:Anxiety Disorder,0.8053004,0.7395902872085571,1,the constant worry can feel like a storm cloud hanging over me.
+anxiety,1,63,1,twitter:Anxiety Disorder,0.8800434,0.7395902872085571,1,i'm always anticipating the next source of stress.
+anxiety,1,64,1,twitter:Anxiety Disorder,0.8963295,0.7395902872085571,1,feeling like i'm on a roller coaster of emotions that won't slow down.
+anxiety,1,70,0,reddit,0.40838113,0.7395902872085571,0,is depressed he isn t going to be able to see david archuleta
+anxiety,1,75,1,twitter:Anxiety Disorder,0.8796384,0.7395902872085571,1,i'm always anticipating the next source of anxiety.
+anxiety,1,76,0,twitter:Anger/ Intermittent Explosive Disorder/Depression,0.88614255,0.7395902872085571,1,"feeling like i'm on edge, as if any moment could set off intense feelings."
+anxiety,1,81,1,twitter:Anxiety Disorder,0.8046507,0.7395902872085571,1,it's hard to describe the feeling of being trapped in a cycle of worry.
+anxiety,1,86,1,twitter:Anxiety Disorder,0.7893878,0.7395902872085571,1,i'm struggling to focus on anything due to the constant chatter of my mind.
+anxiety,1,87,0,twitter:Panic Disorder,0.44631335,0.7395902872085571,0,i feel like i'm trapped in my own body.
+anxiety,1,90,1,twitter:Anxiety Disorder,0.68955153,0.7395902872085571,0,i feel like i'm suffocating under the weight of my anxiety.
+anxiety,1,96,1,twitter:Anxiety Disorder,0.8785497,0.7395902872085571,1,feeling like i'm carrying a weight of concern that's hard to put down.
+anxiety,1,100,0,twitter:Depression,0.416219,0.7395902872085571,0,i wish i could explain why i feel sad when everything seems fine.
+anxiety,1,101,0,twitter:Depression,0.5720819,0.7395902872085571,0,"even on good days, there's a lingering feeling of emptiness."
+anxiety,1,110,1,twitter:Anxiety Disorder,0.62899715,0.7395902872085571,0,i feel like i'm carrying the weight of the world on my shoulders.
+anxiety,1,112,0,reddit,0.35833335,0.7395902872085571,0,wishing i wa home underneath my cover
+anxiety,1,114,1,twitter:Anxiety Disorder,0.8971592,0.7395902872085571,1,i'm avoiding situations that make me feel vulnerable.
+anxiety,1,115,1,twitter:Anxiety Disorder,0.6477715,0.7395902872085571,0,i'm constantly comparing myself to others and feeling inadequate.
+anxiety,1,119,0,reddit,0.38664454,0.7395902872085571,0,fuck len wein s house caught fire earlier today the family is safe but they lost their dog
+anxiety,1,121,1,twitter:Anxiety Disorder,0.8353455,0.7395902872085571,1,i feel like i'm stuck in a cycle of perpetual worry.
+anxiety,1,126,0,twitter:Anger/ Intermittent Explosive Disorder,0.84393656,0.7395902872085571,1,trying to navigate social situations when emotions can run high.
+anxiety,1,131,0,twitter:Anger/ Intermittent Explosive Disorder/Depression,0.8398339,0.7395902872085571,1,it's like i'm trying to steer a ship through choppy emotional waters.
+anxiety,1,133,0,twitter:Depression,0.9013774,0.7395902872085571,1,trying to find moments of peace in a mind that's in turmoil.
+anxiety,1,137,1,twitter:Anxiety Disorder,0.8760144,0.7395902872085571,1,i'm constantly bracing myself for the worst outcomes.
+anxiety,1,145,0,twitter:Anger/ Intermittent Explosive Disorder/Depression,0.79348916,0.7395902872085571,1,it's like i'm trying to navigate through a maze of strong emotional reactions.
+anxiety,1,152,1,twitter:Anxiety Disorder,0.706013,0.7395902872085571,0,"the fear of disappointing others can be overwhelming, even when it's irrational."
+anxiety,1,155,1,twitter:Anxiety Disorder,0.85335946,0.7395902872085571,1,feeling like i'm carrying a weight of apprehension that's hard to shake.
+anxiety,1,161,0,reddit,0.38520023,0.7395902872085571,0,aww sandra cantu is found dead in a suitcase missing child story never seem to go good poor family
+anxiety,1,166,1,twitter:Anxiety Disorder,0.65023404,0.7395902872085571,0,i can't shake off this feeling of impending doom.
+anxiety,1,172,1,twitter:Anxiety Disorder,0.88993603,0.7395902872085571,1,i'm constantly worried that i'm missing something important.
+anxiety,1,175,0,reddit,0.39931077,0.7395902872085571,0,twxtd jordan i wish i could i have to keep my door open for other people that may need me
+anxiety,1,180,1,twitter:Anxiety Disorder,0.831925,0.7395902872085571,1,the fear of the future can overshadow even the brightest moments.
+anxiety,1,183,0,twitter:Anger/ Intermittent Explosive Disorder,0.7632895,0.7395902872085571,1,i'm worried that my anger is damaging my self-esteem.
+anxiety,1,185,1,twitter:Anxiety Disorder,0.7074807,0.7395902872085571,0,i'm struggling to find a sense of calm amidst the chaos of my thoughts.
+anxiety,1,192,1,twitter:Anxiety Disorder,0.90021855,0.7395902872085571,1,trying to navigate life when my thoughts feel like a maze i can't escape.
+anxiety,1,194,0,twitter:Panic Disorder,0.7107043,0.7395902872085571,0,there are times when my body feels like a pressure cooker ready to explode.
+anxiety,1,197,0,twitter:Panic Disorder,0.8056307,0.7395902872085571,1,i'm isolating myself to avoid triggering panic.
+anxiety,1,200,1,twitter:Anxiety Disorder,0.8899511,0.7395902872085571,1,i'm always preparing for the worst-case scenario.
+anxiety,1,201,1,twitter:Anxiety Disorder,0.8675194,0.7395902872085571,1,i'm worried that my anxiety is holding me back from living my life.
+anxiety,1,212,0,twitter:Anger/ Intermittent Explosive Disorder,0.37213326,0.7395902872085571,0,my anger is like a beast that i can't control.
+anxiety,1,213,0,twitter:Panic Disorder,0.5416473,0.7395902872085571,0,i'm desperate to escape the overwhelming fear.
+anxiety,1,217,0,twitter:Panic Disorder,0.84297585,0.7395902872085571,1,i'm having a racing mind full of fearful thoughts.
+anxiety,1,219,0,twitter:Depression,0.70848733,0.7395902872085571,0,it's like i'm carrying a heavy secret that's eating me up inside.
+anxiety,1,224,1,twitter:Anxiety Disorder,0.85890806,0.7395902872085571,1,i feel like i'm drowning in a sea of worries.
+anxiety,1,232,0,twitter:Anger/ Intermittent Explosive Disorder,0.39147082,0.7395902872085571,0,my anger feels like a heavy weight that i can't shake off.
+anxiety,1,237,1,twitter:Anxiety Disorder,0.67124915,0.7395902872085571,0,i'm struggling to find a moment of peace from my anxiety.
+anxiety,1,238,0,reddit,0.40261564,0.7395902872085571,0,smarrison i would ve been the first but i didn t have a gun not really though zac snyder s just a doucheclown
+anxiety,1,245,1,twitter:Anxiety Disorder,0.767908,0.7395902872085571,1,i feel like i'm trapped in a cycle of anxiety.
+anxiety,1,246,1,twitter:Anxiety Disorder,0.58934224,0.7395902872085571,0,i'm struggling to sleep because my mind won't stop racing.
+anxiety,1,252,1,twitter:Anxiety Disorder,0.888477,0.7395902872085571,1,trying to find a way to ground myself when my thoughts are scattered.
+anxiety,1,269,0,twitter:Narcissistic Disorder,0.37757695,0.7395902872085571,0,i expect people to listen and agree with what i say.
+anxiety,1,272,0,twitter:Narcissistic Disorder,0.47738358,0.7395902872085571,0,the pursuit of success is like an ever-burning flame inside me.
+anxiety,1,277,0,twitter:Narcissistic Disorder,0.66061556,0.7395902872085571,0,i'm not interested in people who can't offer me something valuable.
+anxiety,1,287,0,twitter:Narcissistic Disorder,0.36407992,0.7395902872085571,0,i expect others to admire and look up to me.
+anxiety,1,290,0,twitter:Narcissistic Disorder,0.3770058,0.7395902872085571,0,i deserve recognition and praise for my achievements.
+anxiety,2,2,0,twitter:Anger/ Intermittent Explosive Disorder,0.85899144,0.8171342611312866,1,"i'm constantly grappling with my own anger, trying to contain it."
+anxiety,2,5,1,twitter:Anxiety Disorder,0.83805984,0.8171342611312866,1,"even in calm moments, my mind can race with thoughts of potential danger."
+anxiety,2,25,1,twitter:Anxiety Disorder,0.8697561,0.8171342611312866,1,"feeling like i'm constantly on alert, ready for whatever might go wrong."
+anxiety,2,28,1,twitter:Anxiety Disorder,0.845394,0.8171342611312866,1,"the fear of failure can be all-consuming, holding me back from taking risks."
+anxiety,2,30,0,twitter:Anger/ Intermittent Explosive Disorder/Depression,0.5075083,0.8171342611312866,0,the challenge is to find ways to channel intense emotions into positive actions.
+anxiety,2,38,1,twitter:Anxiety Disorder,0.84223455,0.8171342611312866,1,trying to find moments of peace in a sea of restlessness.
+anxiety,2,40,1,twitter:Anxiety Disorder,0.86305356,0.8171342611312866,1,feeling like i'm in a tug-of-war between my worries and my desire for peace.
+anxiety,2,43,0,reddit,0.11744322,0.8171342611312866,0,kenmcguire sorry i had to be the one to confirm your darkest fear
+anxiety,2,44,1,twitter:Anxiety Disorder,0.8573016,0.8171342611312866,1,"it's like my mind is a theater, playing worst-case scenarios on repeat."
+anxiety,2,46,0,twitter:Panic Disorder,0.85420454,0.8171342611312866,1,the rush of anxiety can make it feel like i'm in freefall.
+anxiety,2,49,1,twitter:Anxiety Disorder,0.86670005,0.8171342611312866,1,"some days, my mind feels like a whirlwind of 'what-ifs' and uncertainties."
+anxiety,2,56,0,twitter:Depression,0.85746485,0.8171342611312866,1,i'm constantly berating myself for my perceived failures.
+anxiety,2,57,1,twitter:Anxiety Disorder,0.85861355,0.8171342611312866,1,i'm worried that my anxiety is making me miss out on opportunities.
+anxiety,2,59,0,twitter:Depression,0.6910922,0.8171342611312866,0,i feel so empty inside.
+anxiety,2,60,1,twitter:Anxiety Disorder,0.87159157,0.8171342611312866,1,i'm constantly imagining worst-case scenarios.
+anxiety,2,72,0,twitter:Depression,0.83923936,0.8171342611312866,1,i'm isolating myself because i'm afraid of being rejected.
+anxiety,2,78,1,twitter:Anxiety Disorder,0.8553696,0.8171342611312866,1,i'm worried that my anxiety is preventing me from reaching my goals.
+anxiety,2,79,1,twitter:Anxiety Disorder,0.86839557,0.8171342611312866,1,i'm avoiding taking risks because of the fear of triggering anxiety.
+anxiety,2,80,1,twitter:Anxiety Disorder,0.8664,0.8171342611312866,1,trying to navigate life when my thoughts are a whirlwind of uncertainty.
+anxiety,2,82,1,twitter:Anxiety Disorder,0.847659,0.8171342611312866,1,"the fear of the unknown can be paralyzing, holding me back from taking action."
+anxiety,2,85,1,twitter:Anxiety Disorder,0.8426592,0.8171342611312866,1,trying to navigate a world that seems full of potential dangers.
+anxiety,2,95,1,twitter:Anxiety Disorder,0.8761902,0.8171342611312866,1,i'm avoiding situations where i might have to confront my fears.
+anxiety,2,98,0,reddit,0.14254384,0.8171342611312866,0,is running on low battery http plurk com p n0blb
+anxiety,2,102,1,twitter:Anxiety Disorder,0.85416603,0.8171342611312866,1,"i'm constantly on edge, waiting for the other shoe to drop."
+anxiety,2,107,0,reddit,0.12188735,0.8171342611312866,0,gillianme yeah he wa
+anxiety,2,113,0,twitter:Depression,0.85320634,0.8171342611312866,1,"feeling like i'm walking on a tightrope, always teetering on the edge."
+anxiety,2,116,0,twitter:Panic Disorder,0.8636232,0.8171342611312866,1,i'm avoiding places that remind me of past panic attacks.
+anxiety,2,118,1,twitter:Anxiety Disorder,0.8579653,0.8171342611312866,1,trying to find a way to silence the critical voice in my head.
+anxiety,2,120,0,reddit,0.0849076,0.8171342611312866,0,home mc bored missing him who him sigh im bored tadi exam amp wa okay thursday lagi exam gaaaaaaaaaaaaaahhh
+anxiety,2,123,1,twitter:Anxiety Disorder,0.861066,0.8171342611312866,1,i'm avoiding situations that challenge my need for control.
+anxiety,2,124,1,twitter:Anxiety Disorder,0.85716987,0.8171342611312866,1,i'm always questioning whether i'm good enough.
+anxiety,2,125,0,twitter:Panic Disorder,0.8500307,0.8171342611312866,1,"trying to catch my breath, even when i'm not physically running."
+anxiety,2,132,1,twitter:Anxiety Disorder,0.8620683,0.8171342611312866,1,i feel like i'm trapped in my own mind with my worries.
+anxiety,2,140,0,twitter:Panic Disorder,0.8593002,0.8171342611312866,1,"i feel like i'm in danger, even when there's no threat."
+anxiety,2,141,1,twitter:Anxiety Disorder,0.86545163,0.8171342611312866,1,i'm losing sleep over things that may never happen.
+anxiety,2,148,1,twitter:Anxiety Disorder,0.87450266,0.8171342611312866,1,i'm always trying to anticipate and prepare for potential problems.
+anxiety,2,149,0,twitter:Panic Disorder,0.8393475,0.8171342611312866,1,i feel like i'm going to lose control any second.
+anxiety,2,150,0,twitter:Panic Disorder,0.847996,0.8171342611312866,1,"feeling like i'm standing on the edge of a precipice, afraid to move."
+anxiety,2,154,1,twitter:Anxiety Disorder,0.84576076,0.8171342611312866,1,i'm avoiding triggers even if they seem harmless to others.
+anxiety,2,156,0,reddit,0.18778574,0.8171342611312866,0,one of the hardest thing with this schedule no one i can chat with at the end of my day usually
+anxiety,2,159,1,twitter:Anxiety Disorder,0.864596,0.8171342611312866,1,i'm constantly second-guessing myself and my decisions.
+anxiety,2,167,1,twitter:Anxiety Disorder,0.8124929,0.8171342611312866,0,it's hard to explain the constant tension that resides within me.
+anxiety,2,170,0,twitter:Panic Disorder,0.81167346,0.8171342611312866,0,"some moments, it feels like the world is crashing down around me."
+anxiety,2,174,0,twitter:Anger/ Intermittent Explosive Disorder/Depression,0.54908955,0.8171342611312866,0,"the struggle is real, and finding healthy ways to manage emotions is essential."
+anxiety,2,178,1,twitter:Anxiety Disorder,0.8535484,0.8171342611312866,1,i'm overwhelmed by the constant chatter of my anxious thoughts.
+anxiety,2,182,0,twitter:Panic Disorder,0.798014,0.8171342611312866,0,it's hard to explain the rush of adrenaline that surges through me.
+anxiety,2,187,1,twitter:Anxiety Disorder,0.83037996,0.8171342611312866,1,trying to find a way to quiet the inner critic that never seems to rest.
+anxiety,2,189,1,twitter:Anxiety Disorder,0.8592408,0.8171342611312866,1,feeling like i'm navigating through a world of uncertainty and doubt.
+anxiety,2,199,0,twitter:Anger/ Intermittent Explosive Disorder,0.79755783,0.8171342611312866,0,feeling like my emotional responses can be disproportionate at times.
+anxiety,2,202,0,twitter:Depression,0.80450547,0.8171342611312866,0,"i feel so alone, even in a crowd."
+anxiety,2,220,0,twitter:Panic Disorder,0.8631077,0.8171342611312866,1,i'm experiencing a sense of unreality during an attack.
+anxiety,2,221,0,twitter:Anger/ Intermittent Explosive Disorder,0.7383598,0.8171342611312866,0,"i want to change, but my anger seems uncontrollable."
+anxiety,2,226,1,twitter:Anxiety Disorder,0.8459299,0.8171342611312866,1,"even when i want to relax, my mind can keep racing as if danger is imminent."
+anxiety,2,231,1,twitter:Anxiety Disorder,0.8614703,0.8171342611312866,1,i'm constantly worrying about things that haven't even happened.
+anxiety,2,234,1,twitter:Anxiety Disorder,0.8545869,0.8171342611312866,1,"the fear of making a mistake can be paralyzing, leaving me frozen in place."
+anxiety,2,235,1,twitter:Anxiety Disorder,0.8732036,0.8171342611312866,1,feeling like my mind is a radio tuned to worst-case scenarios.
+anxiety,2,239,0,twitter:Anger/ Intermittent Explosive Disorder,0.27792078,0.8171342611312866,0,i wish i could find a way to communicate without resorting to anger.
+anxiety,2,241,1,twitter:Anxiety Disorder,0.8468795,0.8171342611312866,1,"even when everything seems fine, my mind can conjure up doubts and fears."
+anxiety,2,242,0,twitter:Depression,0.77482176,0.8171342611312866,0,"the weight of sadness can be overwhelming, even on seemingly good days."
+anxiety,2,244,0,twitter:Depression,0.7550063,0.8171342611312866,0,"the struggle is real, even when i manage to keep moving forward."
+anxiety,2,248,0,twitter:Anger/ Intermittent Explosive Disorder,0.69911957,0.8171342611312866,0,"even when i don't want to react strongly, my emotions can surge unexpectedly."
+anxiety,2,250,0,twitter:Depression,0.8096767,0.8171342611312866,0,"the loneliness can be suffocating, even in a room full of people."
+anxiety,2,256,1,twitter:Anxiety Disorder,0.86045426,0.8171342611312866,1,feeling like i'm walking through a world of uncertainty without a map.
+anxiety,2,257,0,reddit,0.09373775,0.8171342611312866,0,all work and no play doe not a happy linda make can t wait for the holiday
+anxiety,2,260,1,twitter:Anxiety Disorder,0.8592396,0.8171342611312866,1,"the fear of making mistakes can be paralyzing, keeping me from trying."
+anxiety,2,262,1,twitter:Anxiety Disorder,0.8289874,0.8171342611312866,1,it's hard to explain the surge of panic that can strike at any moment.
+anxiety,2,263,0,twitter:Narcissistic Disorder,0.6708693,0.8171342611312866,0,it's hard to describe the conviction that i am meant for greatness.
+anxiety,2,264,0,twitter:Narcissistic Disorder,0.3948287,0.8171342611312866,0,it's like my confidence is a shining armor that protects me from doubt.
+anxiety,2,266,0,twitter:Narcissistic Disorder,0.7226905,0.8171342611312866,0,feeling like my opinions and insights are unparalleled.
+anxiety,2,270,0,twitter:Narcissistic Disorder,0.4862863,0.8171342611312866,0,the pursuit of greatness propels me forward every day.
+anxiety,2,275,0,twitter:Narcissistic Disorder,0.6491541,0.8171342611312866,0,"even in moments of doubt, i know i have a unique perspective."
+anxiety,2,278,0,twitter:Narcissistic Disorder,0.3026616,0.8171342611312866,0,i often talk about my own achievements and talents.
+anxiety,2,288,0,twitter:Narcissistic Disorder,0.39977658,0.8171342611312866,0,the allure of success is like a guiding star in my life journey.
+anxiety,3,3,1,twitter:Anxiety Disorder,0.5127799,0.8835217356681824,0,i feel like something bad is always about to happen.
+anxiety,3,8,1,twitter:Anxiety Disorder,0.8663046,0.8835217356681824,0,i feel like i'm on the verge of a panic attack all the time.
+anxiety,3,15,0,twitter:Depression,0.8489013,0.8835217356681824,0,i don't have the energy to face another day.
+anxiety,3,17,0,reddit,0.07843608,0.8835217356681824,0,i m trying to plan trip low budget though don t think it is working
+anxiety,3,18,1,twitter:Anxiety Disorder,0.87796426,0.8835217356681824,0,trying to find moments of peace amidst the turbulence of my thoughts.
+anxiety,3,20,0,twitter:Anger/ Intermittent Explosive Disorder/Depression,0.1273562,0.8835217356681824,0,the challenge is finding ways to handle powerful emotional reactions.
+anxiety,3,26,0,twitter:Panic Disorder,0.21941648,0.8835217356681824,0,i'm convinced that my body is betraying me during an attack.
+anxiety,3,27,1,twitter:Anxiety Disorder,0.52320194,0.8835217356681824,0,the fear of judgment can keep me from expressing my true self.
+anxiety,3,31,1,twitter:Anxiety Disorder,0.67465395,0.8835217356681824,0,the pressure to make the right decisions can feel suffocating at times.
+anxiety,3,36,1,twitter:Anxiety Disorder,0.49020472,0.8835217356681824,0,"the pressure to be perfect can be suffocating, leaving no room for mistakes."
+anxiety,3,39,1,twitter:Anxiety Disorder,0.8890562,0.8835217356681824,1,i'm avoiding situations that might make me feel out of control.
+anxiety,3,41,1,twitter:Anxiety Disorder,0.42169127,0.8835217356681824,0,it's like my mind is a magnet for all the things that could go wrong.
+anxiety,3,48,1,twitter:Anxiety Disorder,0.8985463,0.8835217356681824,1,i'm worried about not being able to manage my anxiety.
+anxiety,3,52,0,twitter:Anger/ Intermittent Explosive Disorder,0.1034275,0.8835217356681824,0,my anger is like a fire that burns me from the inside.
+anxiety,3,68,0,twitter:Panic Disorder,0.8896559,0.8835217356681824,1,i'm struggling to find a way to calm my racing thoughts.
+anxiety,3,69,1,twitter:Anxiety Disorder,0.88749695,0.8835217356681824,1,i'm avoiding situations that might make me feel vulnerable or exposed.
+anxiety,3,83,1,twitter:Anxiety Disorder,0.8816552,0.8835217356681824,0,i feel like i can't escape the grip of anxiety.
+anxiety,3,84,1,twitter:Anxiety Disorder,0.90136343,0.8835217356681824,1,feeling like i'm in a constant tug-of-war between my worries and my desire for peace.
+anxiety,3,88,1,twitter:Anxiety Disorder,0.8950035,0.8835217356681824,1,i'm worried that my anxious thoughts are taking over my life.
+anxiety,3,93,1,twitter:Anxiety Disorder,0.8684457,0.8835217356681824,0,it's like i'm caught in a loop of 'what-ifs' and worst-case scenarios.
+anxiety,3,105,0,reddit,0.08499479,0.8835217356681824,0,kourtneykardash i need get my beach bod back
+anxiety,3,108,0,twitter:Panic Disorder,0.83686155,0.8835217356681824,0,"even in the safety of my own space, fear can make my heart race."
+anxiety,3,111,0,twitter:Depression,0.8029435,0.8835217356681824,0,i feel like i'm stuck in this never-ending sadness.
+anxiety,3,117,1,twitter:Anxiety Disorder,0.88050324,0.8835217356681824,0,i'm avoiding situations that might expose my vulnerabilities.
+anxiety,3,130,1,twitter:Anxiety Disorder,0.83376104,0.8835217356681824,0,it's like a knot in my stomach that won't untangle.
+anxiety,3,134,1,twitter:Anxiety Disorder,0.8932363,0.8835217356681824,1,i'm struggling to focus on anything other than my worries.
+anxiety,3,136,0,twitter:Panic Disorder,0.8511879,0.8835217356681824,0,i'm terrified of not being able to escape during an attack.
+anxiety,3,142,1,twitter:Anxiety Disorder,0.8949479,0.8835217356681824,1,feeling like i'm in a constant battle against my own mind.
+anxiety,3,143,1,twitter:Anxiety Disorder,0.881235,0.8835217356681824,0,i'm struggling to concentrate because of my racing thoughts.
+anxiety,3,144,1,twitter:Anxiety Disorder,0.8933921,0.8835217356681824,1,i feel like i'm held hostage by my own anxious thoughts.
+anxiety,3,146,1,twitter:Anxiety Disorder,0.85406137,0.8835217356681824,0,"even in moments of calm, my heart can race as if i'm in danger."
+anxiety,3,147,0,twitter:Panic Disorder,0.77978724,0.8835217356681824,0,i feel like i'm in a constant state of fight or flight.
+anxiety,3,157,1,twitter:Anxiety Disorder,0.55283445,0.8835217356681824,0,the challenge is to find stillness in a mind that's always in motion.
+anxiety,3,158,0,twitter:Panic Disorder,0.7887514,0.8835217356681824,0,the sensation of being trapped in a never-ending cycle of fear is intense.
+anxiety,3,160,0,twitter:Anger/ Intermittent Explosive Disorder,0.77726144,0.8835217356681824,0,i'm struggling to find ways to manage my anger without exploding.
+anxiety,3,162,1,twitter:Anxiety Disorder,0.8761278,0.8835217356681824,0,i'm avoiding social interactions to prevent anxious thoughts.
+anxiety,3,163,0,twitter:Anger/ Intermittent Explosive Disorder,0.12555128,0.8835217356681824,0,i feel like my anger is a barrier to intimacy and connection.
+anxiety,3,165,1,twitter:Anxiety Disorder,0.8650412,0.8835217356681824,0,it's like there's a constant storm of worry brewing inside me.
+anxiety,3,168,1,twitter:Anxiety Disorder,0.75859815,0.8835217356681824,0,"it's like i'm constantly waiting for the other shoe to drop, even when it doesn't."
+anxiety,3,169,0,twitter:Anger/ Intermittent Explosive Disorder,0.5798916,0.8835217356681824,0,i'm tired of the guilt and shame that come after my anger subsides.
+anxiety,3,173,0,reddit,0.07411955,0.8835217356681824,0,i am scheduled to be very productive on a few hr and i still can not sleep insomia ha gotten to me
+anxiety,3,181,0,twitter:Depression,0.85858905,0.8835217356681824,0,i feel like i'm trapped in a never-ending cycle of sadness.
+anxiety,3,188,0,reddit,0.11295242,0.8835217356681824,0,nobody like leatherhead
+anxiety,3,191,0,twitter:Anger/ Intermittent Explosive Disorder,0.16417174,0.8835217356681824,0,the struggle is maintaining emotional balance in the face of triggers.
+anxiety,3,193,1,twitter:Anxiety Disorder,0.5232983,0.8835217356681824,0,it's like my mind is a magnet for all the potential dangers around me.
+anxiety,3,195,1,twitter:Anxiety Disorder,0.8569167,0.8835217356681824,0,i'm avoiding new experiences because they trigger my anxiety.
+anxiety,3,203,0,twitter:Depression,0.82250327,0.8835217356681824,0,it's hard to describe the feeling of being trapped within myself.
+anxiety,3,204,1,twitter:Anxiety Disorder,0.8496342,0.8835217356681824,0,i'm avoiding things i used to enjoy because of my anxiety.
+anxiety,3,205,0,twitter:Anger/ Intermittent Explosive Disorder,0.15932144,0.8835217356681824,0,i wish i could find a way to channel my anger into something positive.
+anxiety,3,208,0,twitter:Depression,0.8834298,0.8835217356681824,0,feeling like i'm trapped in a cycle of numbness and pain.
+anxiety,3,210,1,twitter:Anxiety Disorder,0.8845256,0.8835217356681824,1,trying to find a way to escape the cycle of worry that never seems to end.
+anxiety,3,211,1,twitter:Anxiety Disorder,0.8506441,0.8835217356681824,0,i'm overthinking every little detail and driving myself crazy.
+anxiety,3,216,1,twitter:Anxiety Disorder,0.88552904,0.8835217356681824,1,"feeling like i'm constantly on edge, as if danger is always lurking."
+anxiety,3,222,1,twitter:Anxiety Disorder,0.765866,0.8835217356681824,0,i'm worried that people will see through my facade of confidence.
+anxiety,3,225,1,twitter:Anxiety Disorder,0.838647,0.8835217356681824,0,i'm overanalyzing every social interaction.
+anxiety,3,227,1,twitter:Anxiety Disorder,0.8774175,0.8835217356681824,0,trying to find a way to ground myself when my thoughts are all over the place.
+anxiety,3,233,0,twitter:Panic Disorder,0.8417735,0.8835217356681824,0,"the fear can grip me suddenly, making every second feel like an eternity."
+anxiety,3,236,0,reddit,0.16476908,0.8835217356681824,0,on the train sans guardian
+anxiety,3,240,1,twitter:Anxiety Disorder,0.8803492,0.8835217356681824,0,feeling like i'm constantly carrying a backpack of worries everywhere i go.
+anxiety,3,255,0,twitter:Panic Disorder,0.8418697,0.8835217356681824,0,i'm worried about embarrassing myself in front of others.
+anxiety,3,258,1,twitter:Anxiety Disorder,0.7029852,0.8835217356681824,0,"it's like my mind is a theater, playing out potential dangers on repeat."
+anxiety,3,259,0,twitter:Depression,0.32874054,0.8835217356681824,0,trying to find small moments of joy amidst the overall struggle.
+anxiety,3,265,0,twitter:Narcissistic Disorder,0.39036444,0.8835217356681824,0,i struggle to accept my flaws or limitations.
+anxiety,3,267,0,twitter:Narcissistic Disorder,0.2732049,0.8835217356681824,0,"i'm better than most people, and i want them to acknowledge it."
+anxiety,3,268,0,twitter:Narcissistic Disorder,0.8785029,0.8835217356681824,0,feeling like i'm a beacon of light in a sea of mediocrity.
+anxiety,3,271,0,twitter:Narcissistic Disorder,0.16092882,0.8835217356681824,0,i expect others to go out of their way to please me.
+anxiety,3,280,0,twitter:Narcissistic Disorder,0.67994756,0.8835217356681824,0,feeling like i deserve nothing less than the best life has to offer.
+anxiety,3,281,0,twitter:Narcissistic Disorder,0.11272734,0.8835217356681824,0,i expect people to be impressed by my status and accomplishments.
+anxiety,3,283,0,twitter:Narcissistic Disorder,0.37732622,0.8835217356681824,0,the drive for success can sometimes be all-consuming.
+anxiety,3,284,0,twitter:Narcissistic Disorder,0.17284884,0.8835217356681824,0,i'm convinced that my opinions are always the most insightful.
+anxiety,3,289,0,twitter:Narcissistic Disorder,0.15089002,0.8835217356681824,0,i expect people to cater to my needs and desires.
+anxiety,3,291,0,twitter:Narcissistic Disorder,0.73162276,0.8835217356681824,0,"even when i'm silent, i command the room's focus."
+anxiety,3,292,0,twitter:Narcissistic Disorder,0.7615701,0.8835217356681824,0,"even when the odds seem daunting, i remain steadfast in my determination."
+anxiety,4,0,0,twitter:Panic Disorder,0.85072684,0.8004118800163269,1,i'm constantly anticipating the next panic attack.
+anxiety,4,6,0,twitter:Panic Disorder,0.8000087,0.8004118800163269,0,"there are times when my mind is a storm, making it hard to focus."
+anxiety,4,12,1,twitter:Anxiety Disorder,0.8204252,0.8004118800163269,1,i'm terrified of being judged for my irrational fears.
+anxiety,4,14,1,twitter:Anxiety Disorder,0.8455319,0.8004118800163269,1,feeling like i'm walking through a world of uncertainty with no map.
+anxiety,4,29,0,reddit,0.24999231,0.8004118800163269,0,lol honeybaby i sound like a ny quil commercial that word only look right with a green background i want to sleep but i can t
+anxiety,4,32,1,twitter:Anxiety Disorder,0.74315715,0.8004118800163269,0,trying to find a way to navigate a world that feels uncertain and scary.
+anxiety,4,33,1,twitter:Anxiety Disorder,0.8660321,0.8004118800163269,1,feeling like i'm stuck in a loop of 'what-ifs' and worst-case scenarios.
+anxiety,4,37,1,twitter:Anxiety Disorder,0.8232298,0.8004118800163269,1,i'm plagued by irrational fears that i can't control.
+anxiety,4,42,0,twitter:Anger/ Intermittent Explosive Disorder,0.6753177,0.8004118800163269,0,i'm constantly searching for strategies to manage my anger.
+anxiety,4,47,0,twitter:Panic Disorder,0.7684721,0.8004118800163269,0,i'm paralyzed with fear and can't move.
+anxiety,4,53,1,twitter:Anxiety Disorder,0.8432136,0.8004118800163269,1,i'm worried about the long-term impact of chronic anxiety.
+anxiety,4,55,0,twitter:Depression,0.6135298,0.8004118800163269,0,isolation can feel like both a comfort and a curse.
+anxiety,4,61,1,twitter:Anxiety Disorder,0.778395,0.8004118800163269,0,"feeling like i'm walking on a tightrope, one misstep away from disaster."
+anxiety,4,65,1,twitter:Anxiety Disorder,0.8308094,0.8004118800163269,1,i'm worried about the impact of my anxiety on my relationships.
+anxiety,4,66,0,twitter:Anger/ Intermittent Explosive Disorder,0.7224082,0.8004118800163269,0,i'm tired of feeling so out of control when i get angry.
+anxiety,4,67,1,twitter:Anxiety Disorder,0.8092222,0.8004118800163269,1,"even when everything's okay, my mind can convince me otherwise."
+anxiety,4,71,0,reddit,0.30840456,0.8004118800163269,0,is ready to go to bed long day tomorrow
+anxiety,4,73,0,twitter:Anger/ Intermittent Explosive Disorder,0.65961856,0.8004118800163269,0,i feel like i'm pushing people away with my explosive reactions.
+anxiety,4,74,1,twitter:Anxiety Disorder,0.7576582,0.8004118800163269,0,trying to find a way to silence the relentless critic in my head.
+anxiety,4,77,1,twitter:Anxiety Disorder,0.5999705,0.8004118800163269,0,"sometimes, the smallest decisions feel like they carry the weight of the world."
+anxiety,4,89,1,twitter:Anxiety Disorder,0.84487784,0.8004118800163269,1,trying to find a way to stop my thoughts from racing in every direction.
+anxiety,4,91,0,reddit,0.2822998,0.8004118800163269,0,dang won t be able to get to any workshop run by web direction
+anxiety,4,92,0,reddit,0.35383922,0.8004118800163269,0,can t sleep i hate these night when i try to go to bed early and stay awake for hour poo
+anxiety,4,94,1,twitter:Anxiety Disorder,0.8608896,0.8004118800163269,1,i feel like i'm tangled up in a web of my own anxious thoughts.
+anxiety,4,97,0,twitter:Panic Disorder,0.7776383,0.8004118800163269,0,"i'm dizzy and disoriented, and it's frightening."
+anxiety,4,99,1,twitter:Anxiety Disorder,0.70477045,0.8004118800163269,0,the fear of not being in control can make even routine situations feel daunting.
+anxiety,4,103,1,twitter:Anxiety Disorder,0.7382747,0.8004118800163269,0,the pressure to avoid missteps can keep me from taking steps forward.
+anxiety,4,104,0,twitter:Anger/ Intermittent Explosive Disorder,0.79173493,0.8004118800163269,0,it's like i'm carrying a weight of emotions that's hard to put down.
+anxiety,4,106,0,twitter:Depression,0.78187466,0.8004118800163269,0,it's hard to explain the inner storm that can brew within me.
+anxiety,4,109,0,twitter:Depression,0.7626538,0.8004118800163269,0,"i'm not lazy, but sometimes it's hard to find the motivation to do anything."
+anxiety,4,122,1,twitter:Anxiety Disorder,0.8559207,0.8004118800163269,1,feeling like i'm trying to navigate through a world of uncertainty and doubt.
+anxiety,4,127,1,twitter:Anxiety Disorder,0.8430467,0.8004118800163269,1,i can't seem to quiet the constant 'what if' thoughts.
+anxiety,4,128,1,twitter:Anxiety Disorder,0.81057954,0.8004118800163269,1,"i'm always on high alert, scanning for potential threats."
+anxiety,4,129,1,twitter:Anxiety Disorder,0.81956565,0.8004118800163269,1,the fear of making a mistake can keep me from even trying.
+anxiety,4,135,0,twitter:Depression,0.77703685,0.8004118800163269,0,it's hard when the future feels uncertain and scary.
+anxiety,4,138,0,twitter:Depression,0.54908854,0.8004118800163269,0,i wish i could find the light in the darkness i often feel.
+anxiety,4,139,1,twitter:Anxiety Disorder,0.85150546,0.8004118800163269,1,i'm avoiding situations that trigger my anxiety.
+anxiety,4,151,1,twitter:Anxiety Disorder,0.8473453,0.8004118800163269,1,i feel like i'm constantly walking on eggshells in my own mind.
+anxiety,4,153,0,twitter:Panic Disorder,0.7631287,0.8004118800163269,0,i'm terrified that i'm going to die.
+anxiety,4,164,1,twitter:Anxiety Disorder,0.81534773,0.8004118800163269,1,trying to find moments of stillness when my thoughts are in constant motion.
+anxiety,4,171,0,twitter:Anger/ Intermittent Explosive Disorder,0.6570482,0.8004118800163269,0,i'm tired of the guilt that follows my anger outbursts.
+anxiety,4,176,1,twitter:Anxiety Disorder,0.84881014,0.8004118800163269,1,i'm consumed by worry about things that are beyond my control.
+anxiety,4,177,0,twitter:Panic Disorder,0.81309706,0.8004118800163269,1,"my thoughts can spiral out of control, making everything feel dangerous."
+anxiety,4,179,1,twitter:Anxiety Disorder,0.8058354,0.8004118800163269,1,"even in moments of stillness, my thoughts can be a whirlwind of unease."
+anxiety,4,184,1,twitter:Anxiety Disorder,0.82122284,0.8004118800163269,1,i'm constantly seeking reassurance from others.
+anxiety,4,186,1,twitter:Anxiety Disorder,0.82350796,0.8004118800163269,1,i'm consumed by doubt and uncertainty.
+anxiety,4,190,1,twitter:Anxiety Disorder,0.85875386,0.8004118800163269,1,i'm avoiding situations that might trigger my obsessive thoughts.
+anxiety,4,196,0,reddit,0.17986208,0.8004118800163269,0,nick carter aww nick i like your hair longer why did you cut it off break my heart
+anxiety,4,198,1,twitter:Anxiety Disorder,0.8674113,0.8004118800163269,1,feeling like i'm constantly trying to stay one step ahead of potential problems.
+anxiety,4,206,0,reddit,0.1884945,0.8004118800163269,0,sleep til noon i did it wa the only one left but i got tempted and ate it soon a i got home i had a chocolate velvet amp ate d mocha
+anxiety,4,207,0,twitter:Anger/ Intermittent Explosive Disorder,0.32780486,0.8004118800163269,0,the challenge is finding ways to communicate my emotions without overwhelming others.
+anxiety,4,209,1,twitter:Anxiety Disorder,0.83394957,0.8004118800163269,1,it's hard to describe the sensation of being trapped in a cycle of worry.
+anxiety,4,214,0,reddit,0.24393293,0.8004118800163269,0,doe anyone else miss chatting in chat room i do but can t find one i feel comfortable in suggestion please
+anxiety,4,215,0,twitter:Depression,0.27777627,0.8004118800163269,0,"the struggle is real, and finding healthy ways to manage emotions is key."
+anxiety,4,218,1,twitter:Anxiety Disorder,0.8326945,0.8004118800163269,1,i feel like i'm trapped in a prison of anxiety.
+anxiety,4,223,1,twitter:Anxiety Disorder,0.8094975,0.8004118800163269,1,i'm terrified of making mistakes and facing consequences.
+anxiety,4,228,0,twitter:Depression,0.64300704,0.8004118800163269,0,it's like i have a fire inside me that flares up unexpectedly.
+anxiety,4,229,1,twitter:Anxiety Disorder,0.7941874,0.8004118800163269,0,it's hard to describe the restlessness and unease that can take over.
+anxiety,4,230,1,twitter:Anxiety Disorder,0.8152279,0.8004118800163269,1,"some days, my mind feels like it's racing on a never-ending track."
+anxiety,4,243,0,reddit,0.2251426,0.8004118800163269,0,now i want amanita someone made me feel unliving
+anxiety,4,247,0,twitter:Panic Disorder,0.8360608,0.8004118800163269,1,i'm avoiding situations that might lead to a panic episode.
+anxiety,4,249,0,reddit,0.33646026,0.8004118800163269,0,fadyanwar it sad cause that wa the last gsm company owned by egyptian also orascom wa inforced to sell it share to fc
+anxiety,4,251,0,twitter:Anger/ Intermittent Explosive Disorder/Depression,0.7700667,0.8004118800163269,0,feeling like i'm constantly walking on a tightrope of emotional intensity.
+anxiety,4,253,1,twitter:Anxiety Disorder,0.8161139,0.8004118800163269,1,"i'm always looking for signs of danger, even in safe situations."
+anxiety,4,254,1,twitter:Anxiety Disorder,0.8454569,0.8004118800163269,1,i'm always anticipating the worst outcomes in any situation.
+anxiety,4,261,1,twitter:Anxiety Disorder,0.8272753,0.8004118800163269,1,i'm always waiting for the next shoe to drop.
+anxiety,4,273,0,twitter:Narcissistic Disorder,0.47204363,0.8004118800163269,0,trying to express my self-assuredness while uplifting others.
+anxiety,4,274,0,twitter:Narcissistic Disorder,0.47138882,0.8004118800163269,0,"even in moments of doubt, i know my strengths set me apart."
+anxiety,4,276,0,twitter:Narcissistic Disorder,0.322125,0.8004118800163269,0,i feel entitled to admiration and attention.
+anxiety,4,279,0,twitter:Narcissistic Disorder,0.66421103,0.8004118800163269,0,i'm annoyed when others don't acknowledge my superior skills.
+anxiety,4,282,0,twitter:Narcissistic Disorder,0.576259,0.8004118800163269,0,i can't tolerate criticism because it hurts my ego.
+anxiety,4,285,0,twitter:Narcissistic Disorder,0.61591965,0.8004118800163269,0,i'm convinced that others should be in awe of me.
+anxiety,4,286,0,twitter:Narcissistic Disorder,0.7339759,0.8004118800163269,0,feeling like my presence alone can elevate any situation.

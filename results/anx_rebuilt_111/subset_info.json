@@ -1,0 +1,11 @@
+{
+ "anxiety": {
+  "raw": 303,
+  "exact_removed": 10,
+  "conflict_removed": 0,
+  "n": 293,
+  "n_pos": 145,
+  "n_neg": 148,
+  "neg_reddit": 30
+ }
+}

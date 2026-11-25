@@ -69,7 +69,10 @@ def main():
                 i = rng.integers(0, n, n)
                 boot.append(np.mean([wf1(y[i], P[alt][k][i]) - wf1(y[i], P["composite"][k][i]) for k in range(3)]))
             lo, hi = np.percentile(boot, [2.5, 97.5])
+            # Bonferroni for the ten comparisons (5 categories x 2 alternatives): two-sided 99.5% interval
+            blo, bhi = np.percentile(boot, [0.25, 99.75])
             d[f"delta_{alt}_vs_composite"] = {"mean": float(obs), "ci": [float(lo), float(hi)],
+                                              "ci_bonferroni10": [float(blo), float(bhi)],
                                               "by_seed": [float(wf1(y, P[alt][k]) - wf1(y, P["composite"][k])) for k in range(3)]}
         res["categories"][c] = d
         print(c, {o: round(d[o]["f1_mean"], 3) for o in OBJ}, {o: round(d[o]["f1_sd_seeds"], 3) for o in OBJ},

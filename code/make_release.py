@@ -10,7 +10,7 @@ Layout (to be copied into the repository as folder  experiments_r3/ ):
   subsets/<arm>/<category>.csv   cleaned subsets with row_id, text, normalized text, label y, source
   splits/<arm>/<category>.csv    fold (test fold) and inner role (train/val/test) of every row_id in every fold
   results/<run tag>/             summary.csv, fold_metrics.csv, oof_scores.csv, loss_history.csv, subset_info.json, log.txt
-  results/external/              external_metrics.csv, external_scores.csv (incl. post text), cost.csv, log.txt
+  results/external/              external_metrics.csv, external_scores.csv (no post texts), cost.csv, log.txt
   results/invariants_r3.json, results/audit_r3.json, results/seeds_r3.json
 """
 import io, json, shutil, sys, zipfile
@@ -30,12 +30,30 @@ R3_TAGS = ["seed43_111", "seed43_ce", "seed43_focal", "seed44_111", "seed44_ce",
 KINDS = ["summary.csv", "fold_metrics.csv", "oof_scores.csv", "loss_history.csv", "subset_info.json", "log.txt", "splits.csv", "shap_tokens.csv", "shap_summary.json"]
 
 
+def strip_external_texts(src_csv, dst_csv, ext_dir):
+    """Replace the post text of external_scores.csv by (source_file, source_row) in the public Reddit Mental Health
+    Dataset; the texts and user names of that dataset are not redistributed."""
+    sc = pd.read_csv(src_csv)
+    idx = {}
+    for sub in sc.subreddit.unique():
+        f = f"{sub}_2018_features_tfidf_256.csv"
+        d = pd.read_csv(Path(ext_dir) / f, usecols=["subreddit", "post"]).dropna(subset=["post"])
+        t = d.post.astype(str).str.replace(r"\s+", " ", regex=True).str.strip().map(rx.normalize)
+        idx[sub] = (f, {n: i for n, i in zip(t[::-1], d.index[::-1])})  # first occurrence wins
+    norm = sc.Text.map(rx.normalize)
+    sc["source_file"] = [idx[s][0] for s in sc.subreddit]
+    sc["source_row"] = [idx[s][1].get(n, -1) for s, n in zip(sc.subreddit, norm)]
+    assert (sc.source_row >= 0).all(), "external post not found in the source files"
+    sc.drop(columns=["Text"]).to_csv(dst_csv, index=False)
+
+
 def main():
     rx.DATA = HERE.parent / "data" / "multi_disorders"
     if REL.exists():
         shutil.rmtree(REL)
     (REL / "code").mkdir(parents=True)
-    for f in ["run_experiments.py", "check_invariants.py", "ext_test.py", "audit_r3.py", "seeds_r3.py", "queue_r3.sh", "make_release.py"]:
+    for f in ["run_experiments.py", "check_invariants.py", "ext_test.py", "audit_r3.py", "seeds_r3.py", "queue_r3.sh", "make_release.py",
+              "rebuild_anxiety_subset.py", "ext_same75.py", "queue_anx_rebuilt.sh"]:
         shutil.copy(HERE / f, REL / "code" / f)
     shutil.copy(HERE / "fill_numbers.py", REL / "code" / "fill_numbers_r2.py")
     # subsets and splits for the three negative arms (deterministic, seed 42)
@@ -76,10 +94,33 @@ def main():
     ext = HERE / "out" / "external"
     if ext.exists():
         (REL / "results" / "external").mkdir(parents=True, exist_ok=True)
-        for f in ["external_metrics.csv", "external_scores.csv", "cost.csv", "external_sample.json", "log.txt"]:
+        for f in ["external_metrics.csv", "external_metrics_same75.csv", "cost.csv", "external_sample.json", "log.txt"]:
             if (ext / f).exists():
                 shutil.copy(ext / f, REL / "results" / "external" / f)
-    for f in ["invariants_r3.json", "audit_r3.json", "seeds_r3.json"]:
+        strip_external_texts(ext / "external_scores.csv", REL / "results" / "external" / "external_scores.csv", HERE.parent / "ext")
+    # Anxiety subset rebuilt with the intended sampling rule (after review, 24.11.2026)
+    rbd = HERE.parent / "data" / "multi_disorders_anxiety_rebuilt"
+    if rbd.exists():
+        rx.DATA = rbd
+        df, info = rx.load_subset("anxiety", "mixed", 42)
+        (REL / "subsets" / "mixed_anxiety_rebuilt").mkdir(parents=True, exist_ok=True)
+        df.rename(columns={"Text": "text", "n": "text_normalized"}).to_csv(REL / "subsets" / "mixed_anxiety_rebuilt" / "anxiety.csv", index=False)
+        rx.DATA = HERE.parent / "data" / "multi_disorders"
+    for tag in ["anx_rebuilt_111"]:
+        src = HERE / "out" / tag
+        if src.exists():
+            (REL / "results" / tag).mkdir(parents=True, exist_ok=True)
+            for k in KINDS:
+                if (src / k).exists():
+                    shutil.copy(src / k, REL / "results" / tag / k)
+    erb = HERE / "out" / "external_anx_rebuilt"
+    if erb.exists():
+        (REL / "results" / "external_anx_rebuilt").mkdir(parents=True, exist_ok=True)
+        for f in ["external_metrics.csv", "external_metrics_same75.csv", "log.txt"]:
+            if (erb / f).exists():
+                shutil.copy(erb / f, REL / "results" / "external_anx_rebuilt" / f)
+        strip_external_texts(erb / "external_scores.csv", REL / "results" / "external_anx_rebuilt" / "external_scores.csv", HERE.parent / "ext")
+    for f in ["invariants_r3.json", "invariants_anxiety_rebuilt.json", "audit_r3.json", "audit_anxiety_rebuilt.json", "seeds_r3.json"]:
         if (HERE / "out" / f).exists():
             shutil.copy(HERE / "out" / f, REL / "results" / f)
     shutil.copy(HERE / "RELEASE_README.md", REL / "README.md")

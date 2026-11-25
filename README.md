@@ -15,8 +15,9 @@ in the GitHub repository and archived on Zenodo.
   with `row_id`, `text`, `text_normalized`, label `y` (1 = target category), and the source of each text.
   Arms: `mixed` (main experiment), `twitter` (Twitter-only negatives), `reddit` (Reddit-only negatives).
 * External test: 2018 posts of r/anxiety, r/depression, r/teaching, r/divorce, r/guns, r/fitness from the Reddit Mental
-  Health Dataset (Low et al., JMIR 2020; Zenodo 10.5281/zenodo.3941387, ODC-PDDL). The 1,200 sampled posts and all scores
-  are in `results/external/external_scores.csv`.
+  Health Dataset (Low et al., JMIR 2020; Zenodo 10.5281/zenodo.3941387, ODC-PDDL). All scores of the 1,200 sampled posts
+  are in `results/external/external_scores.csv`; each post is identified by `source_file` and `source_row` in that
+  dataset, and its text and user name are not redistributed (`code/ext_test.py` re-draws the same sample with seed 42).
 
 ## Seeds and splits
 * Fold assignment: `StratifiedKFold(n_splits=4, shuffle=True, random_state=42)` on the cleaned subset.
@@ -35,6 +36,9 @@ stored out-of-fold scores exactly (maximum absolute difference 0.0). The remaini
 ## Commands (from this folder; the data folder is `../datasets/multi_disorders`)
 ```
 python code/check_invariants.py --data-dir ../datasets/multi_disorders                                          # Section II-C: subset invariants I1-I7 (exit code 1 on failure)
+python code/rebuild_anxiety_subset.py --src ../datasets/multi_disorders --dst ../datasets/multi_disorders_anxiety_rebuilt  # Section II-C: Anxiety subset rebuilt with the intended rule
+bash code/queue_anx_rebuilt.sh                                                                                    # Sections II-C, III-B, III-F: runs on the rebuilt Anxiety subset
+python code/ext_same75.py                                                                                         # Table VII: threshold-dependent values on the same 75%
 python code/run_experiments.py --tag main_mixed_111_cpu --data-dir ../datasets/multi_disorders                # Table II, Figs. 4-9
 python code/run_experiments.py --tag arm_twitter_111 --negatives twitter --data-dir ../datasets/multi_disorders   # Table III
 python code/run_experiments.py --tag arm_reddit_111  --negatives reddit  --data-dir ../datasets/multi_disorders   # Table III
@@ -63,7 +67,8 @@ computed before the removal of label-conflicting texts and are replaced by `resu
 | Table IV | results/main_mixed_111_cpu and results/loss_* |
 | Table V | results/seeds_r3.json (from main/loss_ce_only/loss_focal_only and seed43_*/seed44_*) |
 | Table VI, Section III-E | results/audit_r3.json |
-| Table VII | results/external/external_metrics.csv |
+| Table VII | results/external/external_metrics_same75.csv (AUC on the whole sample; F1, sensitivity, specificity on the same 75%) |
+| Sections II-C, III-B, III-F (rebuilt Anxiety subset) | subsets/mixed_anxiety_rebuilt/anxiety.csv, results/anx_rebuilt_111, results/external_anx_rebuilt, results/audit_anxiety_rebuilt.json, results/invariants_anxiety_rebuilt.json |
 | Table VIII | results/main_mixed_111_cpu/log.txt, results/external/cost.csv, results/audit_r3.json |
 | Fig. 10 | results/npd_shap |
 | Fig. 11 | results/lc_anx_* and results/main_mixed_111_cpu, results/arm_twitter_111 |
